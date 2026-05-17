@@ -41,7 +41,8 @@
     "fmt:fix": "oxfmt",
     "plan": "bun run --cwd apps/generator plan -- --out ../../generated",
     "availability": "bun run --cwd apps/generator availability -- --out ../../generated",
-    "generate": "bun run --cwd apps/generator generate -- --out ../../generated"
+    "generate": "bun run --cwd apps/generator generate -- --out ../../generated",
+    "upload:generated": "bun scripts/upload-generated.ts"
   },
   "devDependencies": {
     "@types/node": "catalog:",

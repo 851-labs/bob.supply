@@ -15,6 +15,7 @@ bun install
 bun run test
 bun run plan
 bun run generate
+bun run upload:generated
 ```
 
 `bun run plan` writes `generated/batch-001/manifest.json` without generating images.
@@ -50,6 +51,18 @@ To refresh only the availability manifest after adding or uploading images:
 bun run availability
 ```
 
+Generated PNGs are tracked with Git LFS under `generated/**/*.png`. Do not commit `.DS_Store`.
+
+To upload the active batch to R2:
+
+```bash
+bun run upload:generated
+```
+
+The upload command writes files from `generated/batch-001` to the `bob-supply` bucket with keys like
+`batch-001/{animal-slug}/{variant}.png`. PNGs are uploaded as `image/png`; JSON manifests are
+uploaded as `application/json; charset=utf-8`.
+
 ## PFP API
 
 The web app serves deterministic avatar images from seeds:
@@ -60,6 +73,20 @@ GET /{slug}?format=png
 
 The root slug must use only letters, numbers, `_`, or `-`. The exact slug is hashed as raw UTF-8, so
 `Alice` and `alice` may map to different avatars. `format` defaults to `png`; other formats are
-reserved for later and currently return `400`. In local dev, the API reads from
-`generated/batch-001`. In Cloudflare, `apps/www` expects an R2 binding named `BOB_SUPPLY_BUCKET` and
-reads keys like `batch-001/{animal-slug}/{variant}.png`.
+reserved for later and currently return `400`.
+
+The web runtime serves both `/{slug}?format=png` and `/generated/batch-001/{animal-slug}/{variant}.png`
+from the Cloudflare R2 binding named `BOB_SUPPLY_BUCKET`. Missing bucket bindings return `503`.
+If an avatar selected from `available.json` is absent in R2, the seed API returns `502`.
+
+## Web Dev
+
+`apps/www` defaults to Worker dev:
+
+```bash
+bun run --cwd apps/www dev
+```
+
+This builds the app and runs Wrangler against `.output/server/wrangler.json` with the remote
+`BOB_SUPPLY_BUCKET` binding, so local API and gallery image requests exercise the same R2 bucket as
+production. Local dev requires `wrangler login` and access to the `bob-supply` Cloudflare account.

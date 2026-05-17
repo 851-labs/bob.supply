@@ -1,0 +1,3206 @@
+{
+  "batchId": "batch-001",
+  "totalImages": 400,
+  "entries": [
+    {
+      "batchId": "batch-001",
+      "animal": "alligator",
+      "animalSlug": "alligator",
+      "variant": 1,
+      "prompt": "create a pfp for a alligator in cartoon bobs burgers style with solid background",
+      "path": "alligator/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alligator",
+      "animalSlug": "alligator",
+      "variant": 2,
+      "prompt": "create a pfp for a alligator in cartoon bobs burgers style with solid background",
+      "path": "alligator/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alligator",
+      "animalSlug": "alligator",
+      "variant": 3,
+      "prompt": "create a pfp for a alligator in cartoon bobs burgers style with solid background",
+      "path": "alligator/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alligator",
+      "animalSlug": "alligator",
+      "variant": 4,
+      "prompt": "create a pfp for a alligator in cartoon bobs burgers style with solid background",
+      "path": "alligator/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alpaca",
+      "animalSlug": "alpaca",
+      "variant": 1,
+      "prompt": "create a pfp for a alpaca in cartoon bobs burgers style with solid background",
+      "path": "alpaca/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alpaca",
+      "animalSlug": "alpaca",
+      "variant": 2,
+      "prompt": "create a pfp for a alpaca in cartoon bobs burgers style with solid background",
+      "path": "alpaca/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alpaca",
+      "animalSlug": "alpaca",
+      "variant": 3,
+      "prompt": "create a pfp for a alpaca in cartoon bobs burgers style with solid background",
+      "path": "alpaca/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "alpaca",
+      "animalSlug": "alpaca",
+      "variant": 4,
+      "prompt": "create a pfp for a alpaca in cartoon bobs burgers style with solid background",
+      "path": "alpaca/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "arctic fox",
+      "animalSlug": "arctic-fox",
+      "variant": 1,
+      "prompt": "create a pfp for a arctic fox in cartoon bobs burgers style with solid background",
+      "path": "arctic-fox/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "arctic fox",
+      "animalSlug": "arctic-fox",
+      "variant": 2,
+      "prompt": "create a pfp for a arctic fox in cartoon bobs burgers style with solid background",
+      "path": "arctic-fox/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "arctic fox",
+      "animalSlug": "arctic-fox",
+      "variant": 3,
+      "prompt": "create a pfp for a arctic fox in cartoon bobs burgers style with solid background",
+      "path": "arctic-fox/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "arctic fox",
+      "animalSlug": "arctic-fox",
+      "variant": 4,
+      "prompt": "create a pfp for a arctic fox in cartoon bobs burgers style with solid background",
+      "path": "arctic-fox/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "axolotl",
+      "animalSlug": "axolotl",
+      "variant": 1,
+      "prompt": "create a pfp for a axolotl in cartoon bobs burgers style with solid background",
+      "path": "axolotl/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "axolotl",
+      "animalSlug": "axolotl",
+      "variant": 2,
+      "prompt": "create a pfp for a axolotl in cartoon bobs burgers style with solid background",
+      "path": "axolotl/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "axolotl",
+      "animalSlug": "axolotl",
+      "variant": 3,
+      "prompt": "create a pfp for a axolotl in cartoon bobs burgers style with solid background",
+      "path": "axolotl/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "axolotl",
+      "animalSlug": "axolotl",
+      "variant": 4,
+      "prompt": "create a pfp for a axolotl in cartoon bobs burgers style with solid background",
+      "path": "axolotl/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "barn owl",
+      "animalSlug": "barn-owl",
+      "variant": 1,
+      "prompt": "create a pfp for a barn owl in cartoon bobs burgers style with solid background",
+      "path": "barn-owl/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "barn owl",
+      "animalSlug": "barn-owl",
+      "variant": 2,
+      "prompt": "create a pfp for a barn owl in cartoon bobs burgers style with solid background",
+      "path": "barn-owl/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "barn owl",
+      "animalSlug": "barn-owl",
+      "variant": 3,
+      "prompt": "create a pfp for a barn owl in cartoon bobs burgers style with solid background",
+      "path": "barn-owl/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "barn owl",
+      "animalSlug": "barn-owl",
+      "variant": 4,
+      "prompt": "create a pfp for a barn owl in cartoon bobs burgers style with solid background",
+      "path": "barn-owl/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beaver",
+      "animalSlug": "beaver",
+      "variant": 1,
+      "prompt": "create a pfp for a beaver in cartoon bobs burgers style with solid background",
+      "path": "beaver/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beaver",
+      "animalSlug": "beaver",
+      "variant": 2,
+      "prompt": "create a pfp for a beaver in cartoon bobs burgers style with solid background",
+      "path": "beaver/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beaver",
+      "animalSlug": "beaver",
+      "variant": 3,
+      "prompt": "create a pfp for a beaver in cartoon bobs burgers style with solid background",
+      "path": "beaver/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beaver",
+      "animalSlug": "beaver",
+      "variant": 4,
+      "prompt": "create a pfp for a beaver in cartoon bobs burgers style with solid background",
+      "path": "beaver/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beluga whale",
+      "animalSlug": "beluga-whale",
+      "variant": 1,
+      "prompt": "create a pfp for a beluga whale in cartoon bobs burgers style with solid background",
+      "path": "beluga-whale/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beluga whale",
+      "animalSlug": "beluga-whale",
+      "variant": 2,
+      "prompt": "create a pfp for a beluga whale in cartoon bobs burgers style with solid background",
+      "path": "beluga-whale/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beluga whale",
+      "animalSlug": "beluga-whale",
+      "variant": 3,
+      "prompt": "create a pfp for a beluga whale in cartoon bobs burgers style with solid background",
+      "path": "beluga-whale/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "beluga whale",
+      "animalSlug": "beluga-whale",
+      "variant": 4,
+      "prompt": "create a pfp for a beluga whale in cartoon bobs burgers style with solid background",
+      "path": "beluga-whale/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "black cat",
+      "animalSlug": "black-cat",
+      "variant": 1,
+      "prompt": "create a pfp for a black cat in cartoon bobs burgers style with solid background",
+      "path": "black-cat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "black cat",
+      "animalSlug": "black-cat",
+      "variant": 2,
+      "prompt": "create a pfp for a black cat in cartoon bobs burgers style with solid background",
+      "path": "black-cat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "black cat",
+      "animalSlug": "black-cat",
+      "variant": 3,
+      "prompt": "create a pfp for a black cat in cartoon bobs burgers style with solid background",
+      "path": "black-cat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "black cat",
+      "animalSlug": "black-cat",
+      "variant": 4,
+      "prompt": "create a pfp for a black cat in cartoon bobs burgers style with solid background",
+      "path": "black-cat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "border collie",
+      "animalSlug": "border-collie",
+      "variant": 1,
+      "prompt": "create a pfp for a border collie in cartoon bobs burgers style with solid background",
+      "path": "border-collie/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "border collie",
+      "animalSlug": "border-collie",
+      "variant": 2,
+      "prompt": "create a pfp for a border collie in cartoon bobs burgers style with solid background",
+      "path": "border-collie/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "border collie",
+      "animalSlug": "border-collie",
+      "variant": 3,
+      "prompt": "create a pfp for a border collie in cartoon bobs burgers style with solid background",
+      "path": "border-collie/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "border collie",
+      "animalSlug": "border-collie",
+      "variant": 4,
+      "prompt": "create a pfp for a border collie in cartoon bobs burgers style with solid background",
+      "path": "border-collie/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "brown bear",
+      "animalSlug": "brown-bear",
+      "variant": 1,
+      "prompt": "create a pfp for a brown bear in cartoon bobs burgers style with solid background",
+      "path": "brown-bear/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "brown bear",
+      "animalSlug": "brown-bear",
+      "variant": 2,
+      "prompt": "create a pfp for a brown bear in cartoon bobs burgers style with solid background",
+      "path": "brown-bear/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "brown bear",
+      "animalSlug": "brown-bear",
+      "variant": 3,
+      "prompt": "create a pfp for a brown bear in cartoon bobs burgers style with solid background",
+      "path": "brown-bear/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "brown bear",
+      "animalSlug": "brown-bear",
+      "variant": 4,
+      "prompt": "create a pfp for a brown bear in cartoon bobs burgers style with solid background",
+      "path": "brown-bear/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "capybara",
+      "animalSlug": "capybara",
+      "variant": 1,
+      "prompt": "create a pfp for a capybara in cartoon bobs burgers style with solid background",
+      "path": "capybara/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "capybara",
+      "animalSlug": "capybara",
+      "variant": 2,
+      "prompt": "create a pfp for a capybara in cartoon bobs burgers style with solid background",
+      "path": "capybara/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "capybara",
+      "animalSlug": "capybara",
+      "variant": 3,
+      "prompt": "create a pfp for a capybara in cartoon bobs burgers style with solid background",
+      "path": "capybara/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "capybara",
+      "animalSlug": "capybara",
+      "variant": 4,
+      "prompt": "create a pfp for a capybara in cartoon bobs burgers style with solid background",
+      "path": "capybara/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chameleon",
+      "animalSlug": "chameleon",
+      "variant": 1,
+      "prompt": "create a pfp for a chameleon in cartoon bobs burgers style with solid background",
+      "path": "chameleon/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chameleon",
+      "animalSlug": "chameleon",
+      "variant": 2,
+      "prompt": "create a pfp for a chameleon in cartoon bobs burgers style with solid background",
+      "path": "chameleon/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chameleon",
+      "animalSlug": "chameleon",
+      "variant": 3,
+      "prompt": "create a pfp for a chameleon in cartoon bobs burgers style with solid background",
+      "path": "chameleon/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chameleon",
+      "animalSlug": "chameleon",
+      "variant": 4,
+      "prompt": "create a pfp for a chameleon in cartoon bobs burgers style with solid background",
+      "path": "chameleon/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cheetah",
+      "animalSlug": "cheetah",
+      "variant": 1,
+      "prompt": "create a pfp for a cheetah in cartoon bobs burgers style with solid background",
+      "path": "cheetah/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cheetah",
+      "animalSlug": "cheetah",
+      "variant": 2,
+      "prompt": "create a pfp for a cheetah in cartoon bobs burgers style with solid background",
+      "path": "cheetah/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cheetah",
+      "animalSlug": "cheetah",
+      "variant": 3,
+      "prompt": "create a pfp for a cheetah in cartoon bobs burgers style with solid background",
+      "path": "cheetah/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cheetah",
+      "animalSlug": "cheetah",
+      "variant": 4,
+      "prompt": "create a pfp for a cheetah in cartoon bobs burgers style with solid background",
+      "path": "cheetah/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chicken",
+      "animalSlug": "chicken",
+      "variant": 1,
+      "prompt": "create a pfp for a chicken in cartoon bobs burgers style with solid background",
+      "path": "chicken/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chicken",
+      "animalSlug": "chicken",
+      "variant": 2,
+      "prompt": "create a pfp for a chicken in cartoon bobs burgers style with solid background",
+      "path": "chicken/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chicken",
+      "animalSlug": "chicken",
+      "variant": 3,
+      "prompt": "create a pfp for a chicken in cartoon bobs burgers style with solid background",
+      "path": "chicken/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chicken",
+      "animalSlug": "chicken",
+      "variant": 4,
+      "prompt": "create a pfp for a chicken in cartoon bobs burgers style with solid background",
+      "path": "chicken/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chimpanzee",
+      "animalSlug": "chimpanzee",
+      "variant": 1,
+      "prompt": "create a pfp for a chimpanzee in cartoon bobs burgers style with solid background",
+      "path": "chimpanzee/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chimpanzee",
+      "animalSlug": "chimpanzee",
+      "variant": 2,
+      "prompt": "create a pfp for a chimpanzee in cartoon bobs burgers style with solid background",
+      "path": "chimpanzee/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chimpanzee",
+      "animalSlug": "chimpanzee",
+      "variant": 3,
+      "prompt": "create a pfp for a chimpanzee in cartoon bobs burgers style with solid background",
+      "path": "chimpanzee/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chimpanzee",
+      "animalSlug": "chimpanzee",
+      "variant": 4,
+      "prompt": "create a pfp for a chimpanzee in cartoon bobs burgers style with solid background",
+      "path": "chimpanzee/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chinchilla",
+      "animalSlug": "chinchilla",
+      "variant": 1,
+      "prompt": "create a pfp for a chinchilla in cartoon bobs burgers style with solid background",
+      "path": "chinchilla/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chinchilla",
+      "animalSlug": "chinchilla",
+      "variant": 2,
+      "prompt": "create a pfp for a chinchilla in cartoon bobs burgers style with solid background",
+      "path": "chinchilla/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chinchilla",
+      "animalSlug": "chinchilla",
+      "variant": 3,
+      "prompt": "create a pfp for a chinchilla in cartoon bobs burgers style with solid background",
+      "path": "chinchilla/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chinchilla",
+      "animalSlug": "chinchilla",
+      "variant": 4,
+      "prompt": "create a pfp for a chinchilla in cartoon bobs burgers style with solid background",
+      "path": "chinchilla/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chipmunk",
+      "animalSlug": "chipmunk",
+      "variant": 1,
+      "prompt": "create a pfp for a chipmunk in cartoon bobs burgers style with solid background",
+      "path": "chipmunk/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chipmunk",
+      "animalSlug": "chipmunk",
+      "variant": 2,
+      "prompt": "create a pfp for a chipmunk in cartoon bobs burgers style with solid background",
+      "path": "chipmunk/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chipmunk",
+      "animalSlug": "chipmunk",
+      "variant": 3,
+      "prompt": "create a pfp for a chipmunk in cartoon bobs burgers style with solid background",
+      "path": "chipmunk/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "chipmunk",
+      "animalSlug": "chipmunk",
+      "variant": 4,
+      "prompt": "create a pfp for a chipmunk in cartoon bobs burgers style with solid background",
+      "path": "chipmunk/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cockatoo",
+      "animalSlug": "cockatoo",
+      "variant": 1,
+      "prompt": "create a pfp for a cockatoo in cartoon bobs burgers style with solid background",
+      "path": "cockatoo/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cockatoo",
+      "animalSlug": "cockatoo",
+      "variant": 2,
+      "prompt": "create a pfp for a cockatoo in cartoon bobs burgers style with solid background",
+      "path": "cockatoo/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cockatoo",
+      "animalSlug": "cockatoo",
+      "variant": 3,
+      "prompt": "create a pfp for a cockatoo in cartoon bobs burgers style with solid background",
+      "path": "cockatoo/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cockatoo",
+      "animalSlug": "cockatoo",
+      "variant": 4,
+      "prompt": "create a pfp for a cockatoo in cartoon bobs burgers style with solid background",
+      "path": "cockatoo/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "corgi",
+      "animalSlug": "corgi",
+      "variant": 1,
+      "prompt": "create a pfp for a corgi in cartoon bobs burgers style with solid background",
+      "path": "corgi/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "corgi",
+      "animalSlug": "corgi",
+      "variant": 2,
+      "prompt": "create a pfp for a corgi in cartoon bobs burgers style with solid background",
+      "path": "corgi/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "corgi",
+      "animalSlug": "corgi",
+      "variant": 3,
+      "prompt": "create a pfp for a corgi in cartoon bobs burgers style with solid background",
+      "path": "corgi/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "corgi",
+      "animalSlug": "corgi",
+      "variant": 4,
+      "prompt": "create a pfp for a corgi in cartoon bobs burgers style with solid background",
+      "path": "corgi/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cow",
+      "animalSlug": "cow",
+      "variant": 1,
+      "prompt": "create a pfp for a cow in cartoon bobs burgers style with solid background",
+      "path": "cow/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cow",
+      "animalSlug": "cow",
+      "variant": 2,
+      "prompt": "create a pfp for a cow in cartoon bobs burgers style with solid background",
+      "path": "cow/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cow",
+      "animalSlug": "cow",
+      "variant": 3,
+      "prompt": "create a pfp for a cow in cartoon bobs burgers style with solid background",
+      "path": "cow/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "cow",
+      "animalSlug": "cow",
+      "variant": 4,
+      "prompt": "create a pfp for a cow in cartoon bobs burgers style with solid background",
+      "path": "cow/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crab",
+      "animalSlug": "crab",
+      "variant": 1,
+      "prompt": "create a pfp for a crab in cartoon bobs burgers style with solid background",
+      "path": "crab/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crab",
+      "animalSlug": "crab",
+      "variant": 2,
+      "prompt": "create a pfp for a crab in cartoon bobs burgers style with solid background",
+      "path": "crab/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crab",
+      "animalSlug": "crab",
+      "variant": 3,
+      "prompt": "create a pfp for a crab in cartoon bobs burgers style with solid background",
+      "path": "crab/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crab",
+      "animalSlug": "crab",
+      "variant": 4,
+      "prompt": "create a pfp for a crab in cartoon bobs burgers style with solid background",
+      "path": "crab/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crocodile",
+      "animalSlug": "crocodile",
+      "variant": 1,
+      "prompt": "create a pfp for a crocodile in cartoon bobs burgers style with solid background",
+      "path": "crocodile/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crocodile",
+      "animalSlug": "crocodile",
+      "variant": 2,
+      "prompt": "create a pfp for a crocodile in cartoon bobs burgers style with solid background",
+      "path": "crocodile/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crocodile",
+      "animalSlug": "crocodile",
+      "variant": 3,
+      "prompt": "create a pfp for a crocodile in cartoon bobs burgers style with solid background",
+      "path": "crocodile/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "crocodile",
+      "animalSlug": "crocodile",
+      "variant": 4,
+      "prompt": "create a pfp for a crocodile in cartoon bobs burgers style with solid background",
+      "path": "crocodile/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dachshund",
+      "animalSlug": "dachshund",
+      "variant": 1,
+      "prompt": "create a pfp for a dachshund in cartoon bobs burgers style with solid background",
+      "path": "dachshund/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dachshund",
+      "animalSlug": "dachshund",
+      "variant": 2,
+      "prompt": "create a pfp for a dachshund in cartoon bobs burgers style with solid background",
+      "path": "dachshund/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dachshund",
+      "animalSlug": "dachshund",
+      "variant": 3,
+      "prompt": "create a pfp for a dachshund in cartoon bobs burgers style with solid background",
+      "path": "dachshund/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dachshund",
+      "animalSlug": "dachshund",
+      "variant": 4,
+      "prompt": "create a pfp for a dachshund in cartoon bobs burgers style with solid background",
+      "path": "dachshund/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "deer",
+      "animalSlug": "deer",
+      "variant": 1,
+      "prompt": "create a pfp for a deer in cartoon bobs burgers style with solid background",
+      "path": "deer/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "deer",
+      "animalSlug": "deer",
+      "variant": 2,
+      "prompt": "create a pfp for a deer in cartoon bobs burgers style with solid background",
+      "path": "deer/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "deer",
+      "animalSlug": "deer",
+      "variant": 3,
+      "prompt": "create a pfp for a deer in cartoon bobs burgers style with solid background",
+      "path": "deer/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "deer",
+      "animalSlug": "deer",
+      "variant": 4,
+      "prompt": "create a pfp for a deer in cartoon bobs burgers style with solid background",
+      "path": "deer/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dolphin",
+      "animalSlug": "dolphin",
+      "variant": 1,
+      "prompt": "create a pfp for a dolphin in cartoon bobs burgers style with solid background",
+      "path": "dolphin/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dolphin",
+      "animalSlug": "dolphin",
+      "variant": 2,
+      "prompt": "create a pfp for a dolphin in cartoon bobs burgers style with solid background",
+      "path": "dolphin/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dolphin",
+      "animalSlug": "dolphin",
+      "variant": 3,
+      "prompt": "create a pfp for a dolphin in cartoon bobs burgers style with solid background",
+      "path": "dolphin/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "dolphin",
+      "animalSlug": "dolphin",
+      "variant": 4,
+      "prompt": "create a pfp for a dolphin in cartoon bobs burgers style with solid background",
+      "path": "dolphin/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "donkey",
+      "animalSlug": "donkey",
+      "variant": 1,
+      "prompt": "create a pfp for a donkey in cartoon bobs burgers style with solid background",
+      "path": "donkey/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "donkey",
+      "animalSlug": "donkey",
+      "variant": 2,
+      "prompt": "create a pfp for a donkey in cartoon bobs burgers style with solid background",
+      "path": "donkey/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "donkey",
+      "animalSlug": "donkey",
+      "variant": 3,
+      "prompt": "create a pfp for a donkey in cartoon bobs burgers style with solid background",
+      "path": "donkey/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "donkey",
+      "animalSlug": "donkey",
+      "variant": 4,
+      "prompt": "create a pfp for a donkey in cartoon bobs burgers style with solid background",
+      "path": "donkey/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "duck",
+      "animalSlug": "duck",
+      "variant": 1,
+      "prompt": "create a pfp for a duck in cartoon bobs burgers style with solid background",
+      "path": "duck/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "duck",
+      "animalSlug": "duck",
+      "variant": 2,
+      "prompt": "create a pfp for a duck in cartoon bobs burgers style with solid background",
+      "path": "duck/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "duck",
+      "animalSlug": "duck",
+      "variant": 3,
+      "prompt": "create a pfp for a duck in cartoon bobs burgers style with solid background",
+      "path": "duck/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "duck",
+      "animalSlug": "duck",
+      "variant": 4,
+      "prompt": "create a pfp for a duck in cartoon bobs burgers style with solid background",
+      "path": "duck/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "elephant",
+      "animalSlug": "elephant",
+      "variant": 1,
+      "prompt": "create a pfp for a elephant in cartoon bobs burgers style with solid background",
+      "path": "elephant/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "elephant",
+      "animalSlug": "elephant",
+      "variant": 2,
+      "prompt": "create a pfp for a elephant in cartoon bobs burgers style with solid background",
+      "path": "elephant/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "elephant",
+      "animalSlug": "elephant",
+      "variant": 3,
+      "prompt": "create a pfp for a elephant in cartoon bobs burgers style with solid background",
+      "path": "elephant/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "elephant",
+      "animalSlug": "elephant",
+      "variant": 4,
+      "prompt": "create a pfp for a elephant in cartoon bobs burgers style with solid background",
+      "path": "elephant/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "ferret",
+      "animalSlug": "ferret",
+      "variant": 1,
+      "prompt": "create a pfp for a ferret in cartoon bobs burgers style with solid background",
+      "path": "ferret/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "ferret",
+      "animalSlug": "ferret",
+      "variant": 2,
+      "prompt": "create a pfp for a ferret in cartoon bobs burgers style with solid background",
+      "path": "ferret/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "ferret",
+      "animalSlug": "ferret",
+      "variant": 3,
+      "prompt": "create a pfp for a ferret in cartoon bobs burgers style with solid background",
+      "path": "ferret/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "ferret",
+      "animalSlug": "ferret",
+      "variant": 4,
+      "prompt": "create a pfp for a ferret in cartoon bobs burgers style with solid background",
+      "path": "ferret/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "flamingo",
+      "animalSlug": "flamingo",
+      "variant": 1,
+      "prompt": "create a pfp for a flamingo in cartoon bobs burgers style with solid background",
+      "path": "flamingo/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "flamingo",
+      "animalSlug": "flamingo",
+      "variant": 2,
+      "prompt": "create a pfp for a flamingo in cartoon bobs burgers style with solid background",
+      "path": "flamingo/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "flamingo",
+      "animalSlug": "flamingo",
+      "variant": 3,
+      "prompt": "create a pfp for a flamingo in cartoon bobs burgers style with solid background",
+      "path": "flamingo/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "flamingo",
+      "animalSlug": "flamingo",
+      "variant": 4,
+      "prompt": "create a pfp for a flamingo in cartoon bobs burgers style with solid background",
+      "path": "flamingo/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "french bulldog",
+      "animalSlug": "french-bulldog",
+      "variant": 1,
+      "prompt": "create a pfp for a french bulldog in cartoon bobs burgers style with solid background",
+      "path": "french-bulldog/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "french bulldog",
+      "animalSlug": "french-bulldog",
+      "variant": 2,
+      "prompt": "create a pfp for a french bulldog in cartoon bobs burgers style with solid background",
+      "path": "french-bulldog/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "french bulldog",
+      "animalSlug": "french-bulldog",
+      "variant": 3,
+      "prompt": "create a pfp for a french bulldog in cartoon bobs burgers style with solid background",
+      "path": "french-bulldog/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "french bulldog",
+      "animalSlug": "french-bulldog",
+      "variant": 4,
+      "prompt": "create a pfp for a french bulldog in cartoon bobs burgers style with solid background",
+      "path": "french-bulldog/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "frog",
+      "animalSlug": "frog",
+      "variant": 1,
+      "prompt": "create a pfp for a frog in cartoon bobs burgers style with solid background",
+      "path": "frog/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "frog",
+      "animalSlug": "frog",
+      "variant": 2,
+      "prompt": "create a pfp for a frog in cartoon bobs burgers style with solid background",
+      "path": "frog/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "frog",
+      "animalSlug": "frog",
+      "variant": 3,
+      "prompt": "create a pfp for a frog in cartoon bobs burgers style with solid background",
+      "path": "frog/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "frog",
+      "animalSlug": "frog",
+      "variant": 4,
+      "prompt": "create a pfp for a frog in cartoon bobs burgers style with solid background",
+      "path": "frog/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gecko",
+      "animalSlug": "gecko",
+      "variant": 1,
+      "prompt": "create a pfp for a gecko in cartoon bobs burgers style with solid background",
+      "path": "gecko/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gecko",
+      "animalSlug": "gecko",
+      "variant": 2,
+      "prompt": "create a pfp for a gecko in cartoon bobs burgers style with solid background",
+      "path": "gecko/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gecko",
+      "animalSlug": "gecko",
+      "variant": 3,
+      "prompt": "create a pfp for a gecko in cartoon bobs burgers style with solid background",
+      "path": "gecko/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gecko",
+      "animalSlug": "gecko",
+      "variant": 4,
+      "prompt": "create a pfp for a gecko in cartoon bobs burgers style with solid background",
+      "path": "gecko/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "giraffe",
+      "animalSlug": "giraffe",
+      "variant": 1,
+      "prompt": "create a pfp for a giraffe in cartoon bobs burgers style with solid background",
+      "path": "giraffe/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "giraffe",
+      "animalSlug": "giraffe",
+      "variant": 2,
+      "prompt": "create a pfp for a giraffe in cartoon bobs burgers style with solid background",
+      "path": "giraffe/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "giraffe",
+      "animalSlug": "giraffe",
+      "variant": 3,
+      "prompt": "create a pfp for a giraffe in cartoon bobs burgers style with solid background",
+      "path": "giraffe/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "giraffe",
+      "animalSlug": "giraffe",
+      "variant": 4,
+      "prompt": "create a pfp for a giraffe in cartoon bobs burgers style with solid background",
+      "path": "giraffe/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goat",
+      "animalSlug": "goat",
+      "variant": 1,
+      "prompt": "create a pfp for a goat in cartoon bobs burgers style with solid background",
+      "path": "goat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goat",
+      "animalSlug": "goat",
+      "variant": 2,
+      "prompt": "create a pfp for a goat in cartoon bobs burgers style with solid background",
+      "path": "goat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goat",
+      "animalSlug": "goat",
+      "variant": 3,
+      "prompt": "create a pfp for a goat in cartoon bobs burgers style with solid background",
+      "path": "goat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goat",
+      "animalSlug": "goat",
+      "variant": 4,
+      "prompt": "create a pfp for a goat in cartoon bobs burgers style with solid background",
+      "path": "goat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "golden retriever",
+      "animalSlug": "golden-retriever",
+      "variant": 1,
+      "prompt": "create a pfp for a golden retriever in cartoon bobs burgers style with solid background",
+      "path": "golden-retriever/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "golden retriever",
+      "animalSlug": "golden-retriever",
+      "variant": 2,
+      "prompt": "create a pfp for a golden retriever in cartoon bobs burgers style with solid background",
+      "path": "golden-retriever/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "golden retriever",
+      "animalSlug": "golden-retriever",
+      "variant": 3,
+      "prompt": "create a pfp for a golden retriever in cartoon bobs burgers style with solid background",
+      "path": "golden-retriever/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "golden retriever",
+      "animalSlug": "golden-retriever",
+      "variant": 4,
+      "prompt": "create a pfp for a golden retriever in cartoon bobs burgers style with solid background",
+      "path": "golden-retriever/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goose",
+      "animalSlug": "goose",
+      "variant": 1,
+      "prompt": "create a pfp for a goose in cartoon bobs burgers style with solid background",
+      "path": "goose/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goose",
+      "animalSlug": "goose",
+      "variant": 2,
+      "prompt": "create a pfp for a goose in cartoon bobs burgers style with solid background",
+      "path": "goose/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goose",
+      "animalSlug": "goose",
+      "variant": 3,
+      "prompt": "create a pfp for a goose in cartoon bobs burgers style with solid background",
+      "path": "goose/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "goose",
+      "animalSlug": "goose",
+      "variant": 4,
+      "prompt": "create a pfp for a goose in cartoon bobs burgers style with solid background",
+      "path": "goose/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gorilla",
+      "animalSlug": "gorilla",
+      "variant": 1,
+      "prompt": "create a pfp for a gorilla in cartoon bobs burgers style with solid background",
+      "path": "gorilla/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gorilla",
+      "animalSlug": "gorilla",
+      "variant": 2,
+      "prompt": "create a pfp for a gorilla in cartoon bobs burgers style with solid background",
+      "path": "gorilla/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gorilla",
+      "animalSlug": "gorilla",
+      "variant": 3,
+      "prompt": "create a pfp for a gorilla in cartoon bobs burgers style with solid background",
+      "path": "gorilla/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "gorilla",
+      "animalSlug": "gorilla",
+      "variant": 4,
+      "prompt": "create a pfp for a gorilla in cartoon bobs burgers style with solid background",
+      "path": "gorilla/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "guinea pig",
+      "animalSlug": "guinea-pig",
+      "variant": 1,
+      "prompt": "create a pfp for a guinea pig in cartoon bobs burgers style with solid background",
+      "path": "guinea-pig/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "guinea pig",
+      "animalSlug": "guinea-pig",
+      "variant": 2,
+      "prompt": "create a pfp for a guinea pig in cartoon bobs burgers style with solid background",
+      "path": "guinea-pig/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "guinea pig",
+      "animalSlug": "guinea-pig",
+      "variant": 3,
+      "prompt": "create a pfp for a guinea pig in cartoon bobs burgers style with solid background",
+      "path": "guinea-pig/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "guinea pig",
+      "animalSlug": "guinea-pig",
+      "variant": 4,
+      "prompt": "create a pfp for a guinea pig in cartoon bobs burgers style with solid background",
+      "path": "guinea-pig/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hamster",
+      "animalSlug": "hamster",
+      "variant": 1,
+      "prompt": "create a pfp for a hamster in cartoon bobs burgers style with solid background",
+      "path": "hamster/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hamster",
+      "animalSlug": "hamster",
+      "variant": 2,
+      "prompt": "create a pfp for a hamster in cartoon bobs burgers style with solid background",
+      "path": "hamster/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hamster",
+      "animalSlug": "hamster",
+      "variant": 3,
+      "prompt": "create a pfp for a hamster in cartoon bobs burgers style with solid background",
+      "path": "hamster/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hamster",
+      "animalSlug": "hamster",
+      "variant": 4,
+      "prompt": "create a pfp for a hamster in cartoon bobs burgers style with solid background",
+      "path": "hamster/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hedgehog",
+      "animalSlug": "hedgehog",
+      "variant": 1,
+      "prompt": "create a pfp for a hedgehog in cartoon bobs burgers style with solid background",
+      "path": "hedgehog/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hedgehog",
+      "animalSlug": "hedgehog",
+      "variant": 2,
+      "prompt": "create a pfp for a hedgehog in cartoon bobs burgers style with solid background",
+      "path": "hedgehog/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hedgehog",
+      "animalSlug": "hedgehog",
+      "variant": 3,
+      "prompt": "create a pfp for a hedgehog in cartoon bobs burgers style with solid background",
+      "path": "hedgehog/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hedgehog",
+      "animalSlug": "hedgehog",
+      "variant": 4,
+      "prompt": "create a pfp for a hedgehog in cartoon bobs burgers style with solid background",
+      "path": "hedgehog/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hippopotamus",
+      "animalSlug": "hippopotamus",
+      "variant": 1,
+      "prompt": "create a pfp for a hippopotamus in cartoon bobs burgers style with solid background",
+      "path": "hippopotamus/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hippopotamus",
+      "animalSlug": "hippopotamus",
+      "variant": 2,
+      "prompt": "create a pfp for a hippopotamus in cartoon bobs burgers style with solid background",
+      "path": "hippopotamus/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hippopotamus",
+      "animalSlug": "hippopotamus",
+      "variant": 3,
+      "prompt": "create a pfp for a hippopotamus in cartoon bobs burgers style with solid background",
+      "path": "hippopotamus/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hippopotamus",
+      "animalSlug": "hippopotamus",
+      "variant": 4,
+      "prompt": "create a pfp for a hippopotamus in cartoon bobs burgers style with solid background",
+      "path": "hippopotamus/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "horse",
+      "animalSlug": "horse",
+      "variant": 1,
+      "prompt": "create a pfp for a horse in cartoon bobs burgers style with solid background",
+      "path": "horse/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "horse",
+      "animalSlug": "horse",
+      "variant": 2,
+      "prompt": "create a pfp for a horse in cartoon bobs burgers style with solid background",
+      "path": "horse/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "horse",
+      "animalSlug": "horse",
+      "variant": 3,
+      "prompt": "create a pfp for a horse in cartoon bobs burgers style with solid background",
+      "path": "horse/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "horse",
+      "animalSlug": "horse",
+      "variant": 4,
+      "prompt": "create a pfp for a horse in cartoon bobs burgers style with solid background",
+      "path": "horse/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hummingbird",
+      "animalSlug": "hummingbird",
+      "variant": 1,
+      "prompt": "create a pfp for a hummingbird in cartoon bobs burgers style with solid background",
+      "path": "hummingbird/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hummingbird",
+      "animalSlug": "hummingbird",
+      "variant": 2,
+      "prompt": "create a pfp for a hummingbird in cartoon bobs burgers style with solid background",
+      "path": "hummingbird/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hummingbird",
+      "animalSlug": "hummingbird",
+      "variant": 3,
+      "prompt": "create a pfp for a hummingbird in cartoon bobs burgers style with solid background",
+      "path": "hummingbird/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "hummingbird",
+      "animalSlug": "hummingbird",
+      "variant": 4,
+      "prompt": "create a pfp for a hummingbird in cartoon bobs burgers style with solid background",
+      "path": "hummingbird/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "iguana",
+      "animalSlug": "iguana",
+      "variant": 1,
+      "prompt": "create a pfp for a iguana in cartoon bobs burgers style with solid background",
+      "path": "iguana/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "iguana",
+      "animalSlug": "iguana",
+      "variant": 2,
+      "prompt": "create a pfp for a iguana in cartoon bobs burgers style with solid background",
+      "path": "iguana/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "iguana",
+      "animalSlug": "iguana",
+      "variant": 3,
+      "prompt": "create a pfp for a iguana in cartoon bobs burgers style with solid background",
+      "path": "iguana/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "iguana",
+      "animalSlug": "iguana",
+      "variant": 4,
+      "prompt": "create a pfp for a iguana in cartoon bobs burgers style with solid background",
+      "path": "iguana/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "jaguar",
+      "animalSlug": "jaguar",
+      "variant": 1,
+      "prompt": "create a pfp for a jaguar in cartoon bobs burgers style with solid background",
+      "path": "jaguar/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "jaguar",
+      "animalSlug": "jaguar",
+      "variant": 2,
+      "prompt": "create a pfp for a jaguar in cartoon bobs burgers style with solid background",
+      "path": "jaguar/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "jaguar",
+      "animalSlug": "jaguar",
+      "variant": 3,
+      "prompt": "create a pfp for a jaguar in cartoon bobs burgers style with solid background",
+      "path": "jaguar/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "jaguar",
+      "animalSlug": "jaguar",
+      "variant": 4,
+      "prompt": "create a pfp for a jaguar in cartoon bobs burgers style with solid background",
+      "path": "jaguar/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "kangaroo",
+      "animalSlug": "kangaroo",
+      "variant": 1,
+      "prompt": "create a pfp for a kangaroo in cartoon bobs burgers style with solid background",
+      "path": "kangaroo/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "kangaroo",
+      "animalSlug": "kangaroo",
+      "variant": 2,
+      "prompt": "create a pfp for a kangaroo in cartoon bobs burgers style with solid background",
+      "path": "kangaroo/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "kangaroo",
+      "animalSlug": "kangaroo",
+      "variant": 3,
+      "prompt": "create a pfp for a kangaroo in cartoon bobs burgers style with solid background",
+      "path": "kangaroo/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "kangaroo",
+      "animalSlug": "kangaroo",
+      "variant": 4,
+      "prompt": "create a pfp for a kangaroo in cartoon bobs burgers style with solid background",
+      "path": "kangaroo/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "koala",
+      "animalSlug": "koala",
+      "variant": 1,
+      "prompt": "create a pfp for a koala in cartoon bobs burgers style with solid background",
+      "path": "koala/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "koala",
+      "animalSlug": "koala",
+      "variant": 2,
+      "prompt": "create a pfp for a koala in cartoon bobs burgers style with solid background",
+      "path": "koala/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "koala",
+      "animalSlug": "koala",
+      "variant": 3,
+      "prompt": "create a pfp for a koala in cartoon bobs burgers style with solid background",
+      "path": "koala/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "koala",
+      "animalSlug": "koala",
+      "variant": 4,
+      "prompt": "create a pfp for a koala in cartoon bobs burgers style with solid background",
+      "path": "koala/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lemur",
+      "animalSlug": "lemur",
+      "variant": 1,
+      "prompt": "create a pfp for a lemur in cartoon bobs burgers style with solid background",
+      "path": "lemur/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lemur",
+      "animalSlug": "lemur",
+      "variant": 2,
+      "prompt": "create a pfp for a lemur in cartoon bobs burgers style with solid background",
+      "path": "lemur/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lemur",
+      "animalSlug": "lemur",
+      "variant": 3,
+      "prompt": "create a pfp for a lemur in cartoon bobs burgers style with solid background",
+      "path": "lemur/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lemur",
+      "animalSlug": "lemur",
+      "variant": 4,
+      "prompt": "create a pfp for a lemur in cartoon bobs burgers style with solid background",
+      "path": "lemur/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "leopard",
+      "animalSlug": "leopard",
+      "variant": 1,
+      "prompt": "create a pfp for a leopard in cartoon bobs burgers style with solid background",
+      "path": "leopard/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "leopard",
+      "animalSlug": "leopard",
+      "variant": 2,
+      "prompt": "create a pfp for a leopard in cartoon bobs burgers style with solid background",
+      "path": "leopard/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "leopard",
+      "animalSlug": "leopard",
+      "variant": 3,
+      "prompt": "create a pfp for a leopard in cartoon bobs burgers style with solid background",
+      "path": "leopard/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "leopard",
+      "animalSlug": "leopard",
+      "variant": 4,
+      "prompt": "create a pfp for a leopard in cartoon bobs burgers style with solid background",
+      "path": "leopard/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lion",
+      "animalSlug": "lion",
+      "variant": 1,
+      "prompt": "create a pfp for a lion in cartoon bobs burgers style with solid background",
+      "path": "lion/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lion",
+      "animalSlug": "lion",
+      "variant": 2,
+      "prompt": "create a pfp for a lion in cartoon bobs burgers style with solid background",
+      "path": "lion/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lion",
+      "animalSlug": "lion",
+      "variant": 3,
+      "prompt": "create a pfp for a lion in cartoon bobs burgers style with solid background",
+      "path": "lion/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lion",
+      "animalSlug": "lion",
+      "variant": 4,
+      "prompt": "create a pfp for a lion in cartoon bobs burgers style with solid background",
+      "path": "lion/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "llama",
+      "animalSlug": "llama",
+      "variant": 1,
+      "prompt": "create a pfp for a llama in cartoon bobs burgers style with solid background",
+      "path": "llama/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "llama",
+      "animalSlug": "llama",
+      "variant": 2,
+      "prompt": "create a pfp for a llama in cartoon bobs burgers style with solid background",
+      "path": "llama/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "llama",
+      "animalSlug": "llama",
+      "variant": 3,
+      "prompt": "create a pfp for a llama in cartoon bobs burgers style with solid background",
+      "path": "llama/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "llama",
+      "animalSlug": "llama",
+      "variant": 4,
+      "prompt": "create a pfp for a llama in cartoon bobs burgers style with solid background",
+      "path": "llama/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lobster",
+      "animalSlug": "lobster",
+      "variant": 1,
+      "prompt": "create a pfp for a lobster in cartoon bobs burgers style with solid background",
+      "path": "lobster/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lobster",
+      "animalSlug": "lobster",
+      "variant": 2,
+      "prompt": "create a pfp for a lobster in cartoon bobs burgers style with solid background",
+      "path": "lobster/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lobster",
+      "animalSlug": "lobster",
+      "variant": 3,
+      "prompt": "create a pfp for a lobster in cartoon bobs burgers style with solid background",
+      "path": "lobster/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "lobster",
+      "animalSlug": "lobster",
+      "variant": 4,
+      "prompt": "create a pfp for a lobster in cartoon bobs burgers style with solid background",
+      "path": "lobster/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "maine coon cat",
+      "animalSlug": "maine-coon-cat",
+      "variant": 1,
+      "prompt": "create a pfp for a maine coon cat in cartoon bobs burgers style with solid background",
+      "path": "maine-coon-cat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "maine coon cat",
+      "animalSlug": "maine-coon-cat",
+      "variant": 2,
+      "prompt": "create a pfp for a maine coon cat in cartoon bobs burgers style with solid background",
+      "path": "maine-coon-cat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "maine coon cat",
+      "animalSlug": "maine-coon-cat",
+      "variant": 3,
+      "prompt": "create a pfp for a maine coon cat in cartoon bobs burgers style with solid background",
+      "path": "maine-coon-cat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "maine coon cat",
+      "animalSlug": "maine-coon-cat",
+      "variant": 4,
+      "prompt": "create a pfp for a maine coon cat in cartoon bobs burgers style with solid background",
+      "path": "maine-coon-cat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "mandrill",
+      "animalSlug": "mandrill",
+      "variant": 1,
+      "prompt": "create a pfp for a mandrill in cartoon bobs burgers style with solid background",
+      "path": "mandrill/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "mandrill",
+      "animalSlug": "mandrill",
+      "variant": 2,
+      "prompt": "create a pfp for a mandrill in cartoon bobs burgers style with solid background",
+      "path": "mandrill/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "mandrill",
+      "animalSlug": "mandrill",
+      "variant": 3,
+      "prompt": "create a pfp for a mandrill in cartoon bobs burgers style with solid background",
+      "path": "mandrill/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "mandrill",
+      "animalSlug": "mandrill",
+      "variant": 4,
+      "prompt": "create a pfp for a mandrill in cartoon bobs burgers style with solid background",
+      "path": "mandrill/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "meerkat",
+      "animalSlug": "meerkat",
+      "variant": 1,
+      "prompt": "create a pfp for a meerkat in cartoon bobs burgers style with solid background",
+      "path": "meerkat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "meerkat",
+      "animalSlug": "meerkat",
+      "variant": 2,
+      "prompt": "create a pfp for a meerkat in cartoon bobs burgers style with solid background",
+      "path": "meerkat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "meerkat",
+      "animalSlug": "meerkat",
+      "variant": 3,
+      "prompt": "create a pfp for a meerkat in cartoon bobs burgers style with solid background",
+      "path": "meerkat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "meerkat",
+      "animalSlug": "meerkat",
+      "variant": 4,
+      "prompt": "create a pfp for a meerkat in cartoon bobs burgers style with solid background",
+      "path": "meerkat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "moose",
+      "animalSlug": "moose",
+      "variant": 1,
+      "prompt": "create a pfp for a moose in cartoon bobs burgers style with solid background",
+      "path": "moose/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "moose",
+      "animalSlug": "moose",
+      "variant": 2,
+      "prompt": "create a pfp for a moose in cartoon bobs burgers style with solid background",
+      "path": "moose/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "moose",
+      "animalSlug": "moose",
+      "variant": 3,
+      "prompt": "create a pfp for a moose in cartoon bobs burgers style with solid background",
+      "path": "moose/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "moose",
+      "animalSlug": "moose",
+      "variant": 4,
+      "prompt": "create a pfp for a moose in cartoon bobs burgers style with solid background",
+      "path": "moose/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "octopus",
+      "animalSlug": "octopus",
+      "variant": 1,
+      "prompt": "create a pfp for a octopus in cartoon bobs burgers style with solid background",
+      "path": "octopus/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "octopus",
+      "animalSlug": "octopus",
+      "variant": 2,
+      "prompt": "create a pfp for a octopus in cartoon bobs burgers style with solid background",
+      "path": "octopus/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "octopus",
+      "animalSlug": "octopus",
+      "variant": 3,
+      "prompt": "create a pfp for a octopus in cartoon bobs burgers style with solid background",
+      "path": "octopus/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "octopus",
+      "animalSlug": "octopus",
+      "variant": 4,
+      "prompt": "create a pfp for a octopus in cartoon bobs burgers style with solid background",
+      "path": "octopus/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orange tabby cat",
+      "animalSlug": "orange-tabby-cat",
+      "variant": 1,
+      "prompt": "create a pfp for a orange tabby cat in cartoon bobs burgers style with solid background",
+      "path": "orange-tabby-cat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orange tabby cat",
+      "animalSlug": "orange-tabby-cat",
+      "variant": 2,
+      "prompt": "create a pfp for a orange tabby cat in cartoon bobs burgers style with solid background",
+      "path": "orange-tabby-cat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orange tabby cat",
+      "animalSlug": "orange-tabby-cat",
+      "variant": 3,
+      "prompt": "create a pfp for a orange tabby cat in cartoon bobs burgers style with solid background",
+      "path": "orange-tabby-cat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orange tabby cat",
+      "animalSlug": "orange-tabby-cat",
+      "variant": 4,
+      "prompt": "create a pfp for a orange tabby cat in cartoon bobs burgers style with solid background",
+      "path": "orange-tabby-cat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orangutan",
+      "animalSlug": "orangutan",
+      "variant": 1,
+      "prompt": "create a pfp for a orangutan in cartoon bobs burgers style with solid background",
+      "path": "orangutan/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orangutan",
+      "animalSlug": "orangutan",
+      "variant": 2,
+      "prompt": "create a pfp for a orangutan in cartoon bobs burgers style with solid background",
+      "path": "orangutan/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orangutan",
+      "animalSlug": "orangutan",
+      "variant": 3,
+      "prompt": "create a pfp for a orangutan in cartoon bobs burgers style with solid background",
+      "path": "orangutan/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orangutan",
+      "animalSlug": "orangutan",
+      "variant": 4,
+      "prompt": "create a pfp for a orangutan in cartoon bobs burgers style with solid background",
+      "path": "orangutan/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orca",
+      "animalSlug": "orca",
+      "variant": 1,
+      "prompt": "create a pfp for a orca in cartoon bobs burgers style with solid background",
+      "path": "orca/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orca",
+      "animalSlug": "orca",
+      "variant": 2,
+      "prompt": "create a pfp for a orca in cartoon bobs burgers style with solid background",
+      "path": "orca/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orca",
+      "animalSlug": "orca",
+      "variant": 3,
+      "prompt": "create a pfp for a orca in cartoon bobs burgers style with solid background",
+      "path": "orca/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "orca",
+      "animalSlug": "orca",
+      "variant": 4,
+      "prompt": "create a pfp for a orca in cartoon bobs burgers style with solid background",
+      "path": "orca/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "otter",
+      "animalSlug": "otter",
+      "variant": 1,
+      "prompt": "create a pfp for a otter in cartoon bobs burgers style with solid background",
+      "path": "otter/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "otter",
+      "animalSlug": "otter",
+      "variant": 2,
+      "prompt": "create a pfp for a otter in cartoon bobs burgers style with solid background",
+      "path": "otter/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "otter",
+      "animalSlug": "otter",
+      "variant": 3,
+      "prompt": "create a pfp for a otter in cartoon bobs burgers style with solid background",
+      "path": "otter/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "otter",
+      "animalSlug": "otter",
+      "variant": 4,
+      "prompt": "create a pfp for a otter in cartoon bobs burgers style with solid background",
+      "path": "otter/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "owl",
+      "animalSlug": "owl",
+      "variant": 1,
+      "prompt": "create a pfp for a owl in cartoon bobs burgers style with solid background",
+      "path": "owl/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "owl",
+      "animalSlug": "owl",
+      "variant": 2,
+      "prompt": "create a pfp for a owl in cartoon bobs burgers style with solid background",
+      "path": "owl/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "owl",
+      "animalSlug": "owl",
+      "variant": 3,
+      "prompt": "create a pfp for a owl in cartoon bobs burgers style with solid background",
+      "path": "owl/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "owl",
+      "animalSlug": "owl",
+      "variant": 4,
+      "prompt": "create a pfp for a owl in cartoon bobs burgers style with solid background",
+      "path": "owl/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "panda",
+      "animalSlug": "panda",
+      "variant": 1,
+      "prompt": "create a pfp for a panda in cartoon bobs burgers style with solid background",
+      "path": "panda/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "panda",
+      "animalSlug": "panda",
+      "variant": 2,
+      "prompt": "create a pfp for a panda in cartoon bobs burgers style with solid background",
+      "path": "panda/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "panda",
+      "animalSlug": "panda",
+      "variant": 3,
+      "prompt": "create a pfp for a panda in cartoon bobs burgers style with solid background",
+      "path": "panda/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "panda",
+      "animalSlug": "panda",
+      "variant": 4,
+      "prompt": "create a pfp for a panda in cartoon bobs burgers style with solid background",
+      "path": "panda/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "parrot",
+      "animalSlug": "parrot",
+      "variant": 1,
+      "prompt": "create a pfp for a parrot in cartoon bobs burgers style with solid background",
+      "path": "parrot/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "parrot",
+      "animalSlug": "parrot",
+      "variant": 2,
+      "prompt": "create a pfp for a parrot in cartoon bobs burgers style with solid background",
+      "path": "parrot/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "parrot",
+      "animalSlug": "parrot",
+      "variant": 3,
+      "prompt": "create a pfp for a parrot in cartoon bobs burgers style with solid background",
+      "path": "parrot/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "parrot",
+      "animalSlug": "parrot",
+      "variant": 4,
+      "prompt": "create a pfp for a parrot in cartoon bobs burgers style with solid background",
+      "path": "parrot/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "peacock",
+      "animalSlug": "peacock",
+      "variant": 1,
+      "prompt": "create a pfp for a peacock in cartoon bobs burgers style with solid background",
+      "path": "peacock/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "peacock",
+      "animalSlug": "peacock",
+      "variant": 2,
+      "prompt": "create a pfp for a peacock in cartoon bobs burgers style with solid background",
+      "path": "peacock/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "peacock",
+      "animalSlug": "peacock",
+      "variant": 3,
+      "prompt": "create a pfp for a peacock in cartoon bobs burgers style with solid background",
+      "path": "peacock/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "peacock",
+      "animalSlug": "peacock",
+      "variant": 4,
+      "prompt": "create a pfp for a peacock in cartoon bobs burgers style with solid background",
+      "path": "peacock/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "penguin",
+      "animalSlug": "penguin",
+      "variant": 1,
+      "prompt": "create a pfp for a penguin in cartoon bobs burgers style with solid background",
+      "path": "penguin/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "penguin",
+      "animalSlug": "penguin",
+      "variant": 2,
+      "prompt": "create a pfp for a penguin in cartoon bobs burgers style with solid background",
+      "path": "penguin/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "penguin",
+      "animalSlug": "penguin",
+      "variant": 3,
+      "prompt": "create a pfp for a penguin in cartoon bobs burgers style with solid background",
+      "path": "penguin/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "penguin",
+      "animalSlug": "penguin",
+      "variant": 4,
+      "prompt": "create a pfp for a penguin in cartoon bobs burgers style with solid background",
+      "path": "penguin/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "persian cat",
+      "animalSlug": "persian-cat",
+      "variant": 1,
+      "prompt": "create a pfp for a persian cat in cartoon bobs burgers style with solid background",
+      "path": "persian-cat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "persian cat",
+      "animalSlug": "persian-cat",
+      "variant": 2,
+      "prompt": "create a pfp for a persian cat in cartoon bobs burgers style with solid background",
+      "path": "persian-cat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "persian cat",
+      "animalSlug": "persian-cat",
+      "variant": 3,
+      "prompt": "create a pfp for a persian cat in cartoon bobs burgers style with solid background",
+      "path": "persian-cat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "persian cat",
+      "animalSlug": "persian-cat",
+      "variant": 4,
+      "prompt": "create a pfp for a persian cat in cartoon bobs burgers style with solid background",
+      "path": "persian-cat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pig",
+      "animalSlug": "pig",
+      "variant": 1,
+      "prompt": "create a pfp for a pig in cartoon bobs burgers style with solid background",
+      "path": "pig/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pig",
+      "animalSlug": "pig",
+      "variant": 2,
+      "prompt": "create a pfp for a pig in cartoon bobs burgers style with solid background",
+      "path": "pig/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pig",
+      "animalSlug": "pig",
+      "variant": 3,
+      "prompt": "create a pfp for a pig in cartoon bobs burgers style with solid background",
+      "path": "pig/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pig",
+      "animalSlug": "pig",
+      "variant": 4,
+      "prompt": "create a pfp for a pig in cartoon bobs burgers style with solid background",
+      "path": "pig/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "polar bear",
+      "animalSlug": "polar-bear",
+      "variant": 1,
+      "prompt": "create a pfp for a polar bear in cartoon bobs burgers style with solid background",
+      "path": "polar-bear/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "polar bear",
+      "animalSlug": "polar-bear",
+      "variant": 2,
+      "prompt": "create a pfp for a polar bear in cartoon bobs burgers style with solid background",
+      "path": "polar-bear/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "polar bear",
+      "animalSlug": "polar-bear",
+      "variant": 3,
+      "prompt": "create a pfp for a polar bear in cartoon bobs burgers style with solid background",
+      "path": "polar-bear/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "polar bear",
+      "animalSlug": "polar-bear",
+      "variant": 4,
+      "prompt": "create a pfp for a polar bear in cartoon bobs burgers style with solid background",
+      "path": "polar-bear/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "puffin",
+      "animalSlug": "puffin",
+      "variant": 1,
+      "prompt": "create a pfp for a puffin in cartoon bobs burgers style with solid background",
+      "path": "puffin/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "puffin",
+      "animalSlug": "puffin",
+      "variant": 2,
+      "prompt": "create a pfp for a puffin in cartoon bobs burgers style with solid background",
+      "path": "puffin/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "puffin",
+      "animalSlug": "puffin",
+      "variant": 3,
+      "prompt": "create a pfp for a puffin in cartoon bobs burgers style with solid background",
+      "path": "puffin/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "puffin",
+      "animalSlug": "puffin",
+      "variant": 4,
+      "prompt": "create a pfp for a puffin in cartoon bobs burgers style with solid background",
+      "path": "puffin/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pug",
+      "animalSlug": "pug",
+      "variant": 1,
+      "prompt": "create a pfp for a pug in cartoon bobs burgers style with solid background",
+      "path": "pug/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pug",
+      "animalSlug": "pug",
+      "variant": 2,
+      "prompt": "create a pfp for a pug in cartoon bobs burgers style with solid background",
+      "path": "pug/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pug",
+      "animalSlug": "pug",
+      "variant": 3,
+      "prompt": "create a pfp for a pug in cartoon bobs burgers style with solid background",
+      "path": "pug/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "pug",
+      "animalSlug": "pug",
+      "variant": 4,
+      "prompt": "create a pfp for a pug in cartoon bobs burgers style with solid background",
+      "path": "pug/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "quokka",
+      "animalSlug": "quokka",
+      "variant": 1,
+      "prompt": "create a pfp for a quokka in cartoon bobs burgers style with solid background",
+      "path": "quokka/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "quokka",
+      "animalSlug": "quokka",
+      "variant": 2,
+      "prompt": "create a pfp for a quokka in cartoon bobs burgers style with solid background",
+      "path": "quokka/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "quokka",
+      "animalSlug": "quokka",
+      "variant": 3,
+      "prompt": "create a pfp for a quokka in cartoon bobs burgers style with solid background",
+      "path": "quokka/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "quokka",
+      "animalSlug": "quokka",
+      "variant": 4,
+      "prompt": "create a pfp for a quokka in cartoon bobs burgers style with solid background",
+      "path": "quokka/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rabbit",
+      "animalSlug": "rabbit",
+      "variant": 1,
+      "prompt": "create a pfp for a rabbit in cartoon bobs burgers style with solid background",
+      "path": "rabbit/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rabbit",
+      "animalSlug": "rabbit",
+      "variant": 2,
+      "prompt": "create a pfp for a rabbit in cartoon bobs burgers style with solid background",
+      "path": "rabbit/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rabbit",
+      "animalSlug": "rabbit",
+      "variant": 3,
+      "prompt": "create a pfp for a rabbit in cartoon bobs burgers style with solid background",
+      "path": "rabbit/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rabbit",
+      "animalSlug": "rabbit",
+      "variant": 4,
+      "prompt": "create a pfp for a rabbit in cartoon bobs burgers style with solid background",
+      "path": "rabbit/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "raccoon",
+      "animalSlug": "raccoon",
+      "variant": 1,
+      "prompt": "create a pfp for a raccoon in cartoon bobs burgers style with solid background",
+      "path": "raccoon/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "raccoon",
+      "animalSlug": "raccoon",
+      "variant": 2,
+      "prompt": "create a pfp for a raccoon in cartoon bobs burgers style with solid background",
+      "path": "raccoon/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "raccoon",
+      "animalSlug": "raccoon",
+      "variant": 3,
+      "prompt": "create a pfp for a raccoon in cartoon bobs burgers style with solid background",
+      "path": "raccoon/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "raccoon",
+      "animalSlug": "raccoon",
+      "variant": 4,
+      "prompt": "create a pfp for a raccoon in cartoon bobs burgers style with solid background",
+      "path": "raccoon/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red fox",
+      "animalSlug": "red-fox",
+      "variant": 1,
+      "prompt": "create a pfp for a red fox in cartoon bobs burgers style with solid background",
+      "path": "red-fox/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red fox",
+      "animalSlug": "red-fox",
+      "variant": 2,
+      "prompt": "create a pfp for a red fox in cartoon bobs burgers style with solid background",
+      "path": "red-fox/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red fox",
+      "animalSlug": "red-fox",
+      "variant": 3,
+      "prompt": "create a pfp for a red fox in cartoon bobs burgers style with solid background",
+      "path": "red-fox/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red fox",
+      "animalSlug": "red-fox",
+      "variant": 4,
+      "prompt": "create a pfp for a red fox in cartoon bobs burgers style with solid background",
+      "path": "red-fox/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red panda",
+      "animalSlug": "red-panda",
+      "variant": 1,
+      "prompt": "create a pfp for a red panda in cartoon bobs burgers style with solid background",
+      "path": "red-panda/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red panda",
+      "animalSlug": "red-panda",
+      "variant": 2,
+      "prompt": "create a pfp for a red panda in cartoon bobs burgers style with solid background",
+      "path": "red-panda/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red panda",
+      "animalSlug": "red-panda",
+      "variant": 3,
+      "prompt": "create a pfp for a red panda in cartoon bobs burgers style with solid background",
+      "path": "red-panda/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "red panda",
+      "animalSlug": "red-panda",
+      "variant": 4,
+      "prompt": "create a pfp for a red panda in cartoon bobs burgers style with solid background",
+      "path": "red-panda/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rhinoceros",
+      "animalSlug": "rhinoceros",
+      "variant": 1,
+      "prompt": "create a pfp for a rhinoceros in cartoon bobs burgers style with solid background",
+      "path": "rhinoceros/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rhinoceros",
+      "animalSlug": "rhinoceros",
+      "variant": 2,
+      "prompt": "create a pfp for a rhinoceros in cartoon bobs burgers style with solid background",
+      "path": "rhinoceros/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rhinoceros",
+      "animalSlug": "rhinoceros",
+      "variant": 3,
+      "prompt": "create a pfp for a rhinoceros in cartoon bobs burgers style with solid background",
+      "path": "rhinoceros/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rhinoceros",
+      "animalSlug": "rhinoceros",
+      "variant": 4,
+      "prompt": "create a pfp for a rhinoceros in cartoon bobs burgers style with solid background",
+      "path": "rhinoceros/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rooster",
+      "animalSlug": "rooster",
+      "variant": 1,
+      "prompt": "create a pfp for a rooster in cartoon bobs burgers style with solid background",
+      "path": "rooster/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rooster",
+      "animalSlug": "rooster",
+      "variant": 2,
+      "prompt": "create a pfp for a rooster in cartoon bobs burgers style with solid background",
+      "path": "rooster/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rooster",
+      "animalSlug": "rooster",
+      "variant": 3,
+      "prompt": "create a pfp for a rooster in cartoon bobs burgers style with solid background",
+      "path": "rooster/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "rooster",
+      "animalSlug": "rooster",
+      "variant": 4,
+      "prompt": "create a pfp for a rooster in cartoon bobs burgers style with solid background",
+      "path": "rooster/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sea lion",
+      "animalSlug": "sea-lion",
+      "variant": 1,
+      "prompt": "create a pfp for a sea lion in cartoon bobs burgers style with solid background",
+      "path": "sea-lion/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sea lion",
+      "animalSlug": "sea-lion",
+      "variant": 2,
+      "prompt": "create a pfp for a sea lion in cartoon bobs burgers style with solid background",
+      "path": "sea-lion/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sea lion",
+      "animalSlug": "sea-lion",
+      "variant": 3,
+      "prompt": "create a pfp for a sea lion in cartoon bobs burgers style with solid background",
+      "path": "sea-lion/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sea lion",
+      "animalSlug": "sea-lion",
+      "variant": 4,
+      "prompt": "create a pfp for a sea lion in cartoon bobs burgers style with solid background",
+      "path": "sea-lion/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seahorse",
+      "animalSlug": "seahorse",
+      "variant": 1,
+      "prompt": "create a pfp for a seahorse in cartoon bobs burgers style with solid background",
+      "path": "seahorse/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seahorse",
+      "animalSlug": "seahorse",
+      "variant": 2,
+      "prompt": "create a pfp for a seahorse in cartoon bobs burgers style with solid background",
+      "path": "seahorse/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seahorse",
+      "animalSlug": "seahorse",
+      "variant": 3,
+      "prompt": "create a pfp for a seahorse in cartoon bobs burgers style with solid background",
+      "path": "seahorse/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seahorse",
+      "animalSlug": "seahorse",
+      "variant": 4,
+      "prompt": "create a pfp for a seahorse in cartoon bobs burgers style with solid background",
+      "path": "seahorse/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seal",
+      "animalSlug": "seal",
+      "variant": 1,
+      "prompt": "create a pfp for a seal in cartoon bobs burgers style with solid background",
+      "path": "seal/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seal",
+      "animalSlug": "seal",
+      "variant": 2,
+      "prompt": "create a pfp for a seal in cartoon bobs burgers style with solid background",
+      "path": "seal/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seal",
+      "animalSlug": "seal",
+      "variant": 3,
+      "prompt": "create a pfp for a seal in cartoon bobs burgers style with solid background",
+      "path": "seal/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "seal",
+      "animalSlug": "seal",
+      "variant": 4,
+      "prompt": "create a pfp for a seal in cartoon bobs burgers style with solid background",
+      "path": "seal/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sheep",
+      "animalSlug": "sheep",
+      "variant": 1,
+      "prompt": "create a pfp for a sheep in cartoon bobs burgers style with solid background",
+      "path": "sheep/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sheep",
+      "animalSlug": "sheep",
+      "variant": 2,
+      "prompt": "create a pfp for a sheep in cartoon bobs burgers style with solid background",
+      "path": "sheep/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sheep",
+      "animalSlug": "sheep",
+      "variant": 3,
+      "prompt": "create a pfp for a sheep in cartoon bobs burgers style with solid background",
+      "path": "sheep/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sheep",
+      "animalSlug": "sheep",
+      "variant": 4,
+      "prompt": "create a pfp for a sheep in cartoon bobs burgers style with solid background",
+      "path": "sheep/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "shiba inu",
+      "animalSlug": "shiba-inu",
+      "variant": 1,
+      "prompt": "create a pfp for a shiba inu in cartoon bobs burgers style with solid background",
+      "path": "shiba-inu/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "shiba inu",
+      "animalSlug": "shiba-inu",
+      "variant": 2,
+      "prompt": "create a pfp for a shiba inu in cartoon bobs burgers style with solid background",
+      "path": "shiba-inu/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "shiba inu",
+      "animalSlug": "shiba-inu",
+      "variant": 3,
+      "prompt": "create a pfp for a shiba inu in cartoon bobs burgers style with solid background",
+      "path": "shiba-inu/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "shiba inu",
+      "animalSlug": "shiba-inu",
+      "variant": 4,
+      "prompt": "create a pfp for a shiba inu in cartoon bobs burgers style with solid background",
+      "path": "shiba-inu/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "siberian cat",
+      "animalSlug": "siberian-cat",
+      "variant": 1,
+      "prompt": "create a pfp for a siberian cat in cartoon bobs burgers style with solid background",
+      "path": "siberian-cat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "siberian cat",
+      "animalSlug": "siberian-cat",
+      "variant": 2,
+      "prompt": "create a pfp for a siberian cat in cartoon bobs burgers style with solid background",
+      "path": "siberian-cat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "siberian cat",
+      "animalSlug": "siberian-cat",
+      "variant": 3,
+      "prompt": "create a pfp for a siberian cat in cartoon bobs burgers style with solid background",
+      "path": "siberian-cat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "siberian cat",
+      "animalSlug": "siberian-cat",
+      "variant": 4,
+      "prompt": "create a pfp for a siberian cat in cartoon bobs burgers style with solid background",
+      "path": "siberian-cat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "skunk",
+      "animalSlug": "skunk",
+      "variant": 1,
+      "prompt": "create a pfp for a skunk in cartoon bobs burgers style with solid background",
+      "path": "skunk/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "skunk",
+      "animalSlug": "skunk",
+      "variant": 2,
+      "prompt": "create a pfp for a skunk in cartoon bobs burgers style with solid background",
+      "path": "skunk/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "skunk",
+      "animalSlug": "skunk",
+      "variant": 3,
+      "prompt": "create a pfp for a skunk in cartoon bobs burgers style with solid background",
+      "path": "skunk/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "skunk",
+      "animalSlug": "skunk",
+      "variant": 4,
+      "prompt": "create a pfp for a skunk in cartoon bobs burgers style with solid background",
+      "path": "skunk/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sloth",
+      "animalSlug": "sloth",
+      "variant": 1,
+      "prompt": "create a pfp for a sloth in cartoon bobs burgers style with solid background",
+      "path": "sloth/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sloth",
+      "animalSlug": "sloth",
+      "variant": 2,
+      "prompt": "create a pfp for a sloth in cartoon bobs burgers style with solid background",
+      "path": "sloth/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sloth",
+      "animalSlug": "sloth",
+      "variant": 3,
+      "prompt": "create a pfp for a sloth in cartoon bobs burgers style with solid background",
+      "path": "sloth/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "sloth",
+      "animalSlug": "sloth",
+      "variant": 4,
+      "prompt": "create a pfp for a sloth in cartoon bobs burgers style with solid background",
+      "path": "sloth/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "snake",
+      "animalSlug": "snake",
+      "variant": 1,
+      "prompt": "create a pfp for a snake in cartoon bobs burgers style with solid background",
+      "path": "snake/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "snake",
+      "animalSlug": "snake",
+      "variant": 2,
+      "prompt": "create a pfp for a snake in cartoon bobs burgers style with solid background",
+      "path": "snake/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "snake",
+      "animalSlug": "snake",
+      "variant": 3,
+      "prompt": "create a pfp for a snake in cartoon bobs burgers style with solid background",
+      "path": "snake/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "snake",
+      "animalSlug": "snake",
+      "variant": 4,
+      "prompt": "create a pfp for a snake in cartoon bobs burgers style with solid background",
+      "path": "snake/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squid",
+      "animalSlug": "squid",
+      "variant": 1,
+      "prompt": "create a pfp for a squid in cartoon bobs burgers style with solid background",
+      "path": "squid/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squid",
+      "animalSlug": "squid",
+      "variant": 2,
+      "prompt": "create a pfp for a squid in cartoon bobs burgers style with solid background",
+      "path": "squid/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squid",
+      "animalSlug": "squid",
+      "variant": 3,
+      "prompt": "create a pfp for a squid in cartoon bobs burgers style with solid background",
+      "path": "squid/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squid",
+      "animalSlug": "squid",
+      "variant": 4,
+      "prompt": "create a pfp for a squid in cartoon bobs burgers style with solid background",
+      "path": "squid/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squirrel",
+      "animalSlug": "squirrel",
+      "variant": 1,
+      "prompt": "create a pfp for a squirrel in cartoon bobs burgers style with solid background",
+      "path": "squirrel/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squirrel",
+      "animalSlug": "squirrel",
+      "variant": 2,
+      "prompt": "create a pfp for a squirrel in cartoon bobs burgers style with solid background",
+      "path": "squirrel/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squirrel",
+      "animalSlug": "squirrel",
+      "variant": 3,
+      "prompt": "create a pfp for a squirrel in cartoon bobs burgers style with solid background",
+      "path": "squirrel/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "squirrel",
+      "animalSlug": "squirrel",
+      "variant": 4,
+      "prompt": "create a pfp for a squirrel in cartoon bobs burgers style with solid background",
+      "path": "squirrel/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tiger",
+      "animalSlug": "tiger",
+      "variant": 1,
+      "prompt": "create a pfp for a tiger in cartoon bobs burgers style with solid background",
+      "path": "tiger/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tiger",
+      "animalSlug": "tiger",
+      "variant": 2,
+      "prompt": "create a pfp for a tiger in cartoon bobs burgers style with solid background",
+      "path": "tiger/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tiger",
+      "animalSlug": "tiger",
+      "variant": 3,
+      "prompt": "create a pfp for a tiger in cartoon bobs burgers style with solid background",
+      "path": "tiger/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tiger",
+      "animalSlug": "tiger",
+      "variant": 4,
+      "prompt": "create a pfp for a tiger in cartoon bobs burgers style with solid background",
+      "path": "tiger/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toad",
+      "animalSlug": "toad",
+      "variant": 1,
+      "prompt": "create a pfp for a toad in cartoon bobs burgers style with solid background",
+      "path": "toad/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toad",
+      "animalSlug": "toad",
+      "variant": 2,
+      "prompt": "create a pfp for a toad in cartoon bobs burgers style with solid background",
+      "path": "toad/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toad",
+      "animalSlug": "toad",
+      "variant": 3,
+      "prompt": "create a pfp for a toad in cartoon bobs burgers style with solid background",
+      "path": "toad/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toad",
+      "animalSlug": "toad",
+      "variant": 4,
+      "prompt": "create a pfp for a toad in cartoon bobs burgers style with solid background",
+      "path": "toad/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tortoise",
+      "animalSlug": "tortoise",
+      "variant": 1,
+      "prompt": "create a pfp for a tortoise in cartoon bobs burgers style with solid background",
+      "path": "tortoise/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tortoise",
+      "animalSlug": "tortoise",
+      "variant": 2,
+      "prompt": "create a pfp for a tortoise in cartoon bobs burgers style with solid background",
+      "path": "tortoise/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tortoise",
+      "animalSlug": "tortoise",
+      "variant": 3,
+      "prompt": "create a pfp for a tortoise in cartoon bobs burgers style with solid background",
+      "path": "tortoise/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tortoise",
+      "animalSlug": "tortoise",
+      "variant": 4,
+      "prompt": "create a pfp for a tortoise in cartoon bobs burgers style with solid background",
+      "path": "tortoise/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toucan",
+      "animalSlug": "toucan",
+      "variant": 1,
+      "prompt": "create a pfp for a toucan in cartoon bobs burgers style with solid background",
+      "path": "toucan/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toucan",
+      "animalSlug": "toucan",
+      "variant": 2,
+      "prompt": "create a pfp for a toucan in cartoon bobs burgers style with solid background",
+      "path": "toucan/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toucan",
+      "animalSlug": "toucan",
+      "variant": 3,
+      "prompt": "create a pfp for a toucan in cartoon bobs burgers style with solid background",
+      "path": "toucan/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "toucan",
+      "animalSlug": "toucan",
+      "variant": 4,
+      "prompt": "create a pfp for a toucan in cartoon bobs burgers style with solid background",
+      "path": "toucan/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tree frog",
+      "animalSlug": "tree-frog",
+      "variant": 1,
+      "prompt": "create a pfp for a tree frog in cartoon bobs burgers style with solid background",
+      "path": "tree-frog/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tree frog",
+      "animalSlug": "tree-frog",
+      "variant": 2,
+      "prompt": "create a pfp for a tree frog in cartoon bobs burgers style with solid background",
+      "path": "tree-frog/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tree frog",
+      "animalSlug": "tree-frog",
+      "variant": 3,
+      "prompt": "create a pfp for a tree frog in cartoon bobs burgers style with solid background",
+      "path": "tree-frog/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "tree frog",
+      "animalSlug": "tree-frog",
+      "variant": 4,
+      "prompt": "create a pfp for a tree frog in cartoon bobs burgers style with solid background",
+      "path": "tree-frog/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turkey",
+      "animalSlug": "turkey",
+      "variant": 1,
+      "prompt": "create a pfp for a turkey in cartoon bobs burgers style with solid background",
+      "path": "turkey/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turkey",
+      "animalSlug": "turkey",
+      "variant": 2,
+      "prompt": "create a pfp for a turkey in cartoon bobs burgers style with solid background",
+      "path": "turkey/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turkey",
+      "animalSlug": "turkey",
+      "variant": 3,
+      "prompt": "create a pfp for a turkey in cartoon bobs burgers style with solid background",
+      "path": "turkey/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turkey",
+      "animalSlug": "turkey",
+      "variant": 4,
+      "prompt": "create a pfp for a turkey in cartoon bobs burgers style with solid background",
+      "path": "turkey/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turtle",
+      "animalSlug": "turtle",
+      "variant": 1,
+      "prompt": "create a pfp for a turtle in cartoon bobs burgers style with solid background",
+      "path": "turtle/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turtle",
+      "animalSlug": "turtle",
+      "variant": 2,
+      "prompt": "create a pfp for a turtle in cartoon bobs burgers style with solid background",
+      "path": "turtle/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turtle",
+      "animalSlug": "turtle",
+      "variant": 3,
+      "prompt": "create a pfp for a turtle in cartoon bobs burgers style with solid background",
+      "path": "turtle/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "turtle",
+      "animalSlug": "turtle",
+      "variant": 4,
+      "prompt": "create a pfp for a turtle in cartoon bobs burgers style with solid background",
+      "path": "turtle/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "walrus",
+      "animalSlug": "walrus",
+      "variant": 1,
+      "prompt": "create a pfp for a walrus in cartoon bobs burgers style with solid background",
+      "path": "walrus/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "walrus",
+      "animalSlug": "walrus",
+      "variant": 2,
+      "prompt": "create a pfp for a walrus in cartoon bobs burgers style with solid background",
+      "path": "walrus/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "walrus",
+      "animalSlug": "walrus",
+      "variant": 3,
+      "prompt": "create a pfp for a walrus in cartoon bobs burgers style with solid background",
+      "path": "walrus/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "walrus",
+      "animalSlug": "walrus",
+      "variant": 4,
+      "prompt": "create a pfp for a walrus in cartoon bobs burgers style with solid background",
+      "path": "walrus/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "wombat",
+      "animalSlug": "wombat",
+      "variant": 1,
+      "prompt": "create a pfp for a wombat in cartoon bobs burgers style with solid background",
+      "path": "wombat/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "wombat",
+      "animalSlug": "wombat",
+      "variant": 2,
+      "prompt": "create a pfp for a wombat in cartoon bobs burgers style with solid background",
+      "path": "wombat/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "wombat",
+      "animalSlug": "wombat",
+      "variant": 3,
+      "prompt": "create a pfp for a wombat in cartoon bobs burgers style with solid background",
+      "path": "wombat/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "wombat",
+      "animalSlug": "wombat",
+      "variant": 4,
+      "prompt": "create a pfp for a wombat in cartoon bobs burgers style with solid background",
+      "path": "wombat/04.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "zebra",
+      "animalSlug": "zebra",
+      "variant": 1,
+      "prompt": "create a pfp for a zebra in cartoon bobs burgers style with solid background",
+      "path": "zebra/01.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "zebra",
+      "animalSlug": "zebra",
+      "variant": 2,
+      "prompt": "create a pfp for a zebra in cartoon bobs burgers style with solid background",
+      "path": "zebra/02.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "zebra",
+      "animalSlug": "zebra",
+      "variant": 3,
+      "prompt": "create a pfp for a zebra in cartoon bobs burgers style with solid background",
+      "path": "zebra/03.png"
+    },
+    {
+      "batchId": "batch-001",
+      "animal": "zebra",
+      "animalSlug": "zebra",
+      "variant": 4,
+      "prompt": "create a pfp for a zebra in cartoon bobs burgers style with solid background",
+      "path": "zebra/04.png"
+    }
+  ]
+}

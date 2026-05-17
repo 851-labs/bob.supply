@@ -1,34 +1,17 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import type { Manifest, ManifestEntry } from "@bob-avatars/core";
-import batchManifest from "../../../../generated/batch-001/manifest.json";
+import type { AvailabilityManifest, ManifestEntry } from "@bob-avatars/core";
+import availabilityManifest from "../../../../generated/batch-001/available.json";
 
 export const Route = createFileRoute("/")({
   loader: () => getGeneratedAvatars(),
   component: HomePage,
 });
 
-const manifest = batchManifest as Manifest;
+const availability = availabilityManifest as AvailabilityManifest;
 
 const getGeneratedAvatars = createServerFn({ method: "GET" }).handler(async () => {
-  const { access } = await import("node:fs/promises");
-  const { dirname, join, resolve } = await import("node:path");
-  const { fileURLToPath } = await import("node:url");
-  const routeDir = dirname(fileURLToPath(import.meta.url));
-  const batchDir = resolve(routeDir, "../../../../generated", manifest.batchId);
-  const entries = manifest.entries.filter((entry) => entry.variant === 1);
-  const existing = await Promise.all(
-    entries.map(async (entry) => {
-      try {
-        await access(join(batchDir, entry.path));
-        return entry;
-      } catch {
-        return undefined;
-      }
-    }),
-  );
-
-  return existing.filter((entry): entry is ManifestEntry => entry !== undefined);
+  return availability.entries.filter((entry): entry is ManifestEntry => entry.variant === 1);
 });
 
 function HomePage() {

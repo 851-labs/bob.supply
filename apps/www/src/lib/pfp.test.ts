@@ -2,9 +2,12 @@ import { beforeEach, describe, expect, it } from "vitest";
 import { createAvailabilityManifest, createManifest } from "@bob-avatars/core";
 import {
   clearPfpAvailabilityCache,
+  generatedObjectKeyFromPath,
+  handleGeneratedAssetRequest,
   handlePfpRequest,
   seedFromPath,
   type AvatarStorage,
+  type BobSupplyBucket,
 } from "./pfp";
 
 const PngBytes = new Uint8Array([137, 80, 78, 71]);
@@ -81,6 +84,12 @@ describe("pfp api", () => {
     expect(response?.status).toBe(503);
   });
 
+  it("returns 503 when the bucket binding is missing", async () => {
+    const response = await handlePfpRequest(new Request("https://example.com/alice?format=png"));
+
+    expect(response?.status).toBe(503);
+  });
+
   it("returns 502 when the selected image is missing", async () => {
     const response = await handlePfpRequest(
       new Request("https://example.com/alice?format=png"),
@@ -89,6 +98,64 @@ describe("pfp api", () => {
     );
 
     expect(response?.status).toBe(502);
+  });
+
+  it("serves deterministic png responses from R2 storage", async () => {
+    const bucket = bucketWithAvailability();
+    const response = await handlePfpRequest(new Request("https://example.com/alice?format=png"), {
+      BOB_SUPPLY_BUCKET: bucket,
+    });
+
+    expect(response?.status).toBe(200);
+    expect(response?.headers.get("Content-Type")).toBe("image/png");
+    expect(response?.headers.get("X-Bob-Avatars-Key")).toMatch(/^batch-001\/.+\/0[12]\.png$/);
+    await expect(response?.arrayBuffer()).resolves.toHaveProperty("byteLength", PngBytes.length);
+  });
+});
+
+describe("generated asset proxy", () => {
+  it("extracts exact R2 keys from generated image URLs", () => {
+    expect(generatedObjectKeyFromPath("/generated/batch-001/siberian-cat/01.png")).toBe(
+      "batch-001/siberian-cat/01.png",
+    );
+    expect(generatedObjectKeyFromPath("/generated/batch-001/siberian-cat/1.png")).toBeUndefined();
+    expect(generatedObjectKeyFromPath("/generated/batch-002/siberian-cat/01.png")).toBeUndefined();
+    expect(generatedObjectKeyFromPath("/alice")).toBeUndefined();
+  });
+
+  it("proxies generated images from R2", async () => {
+    const response = await handleGeneratedAssetRequest(
+      new Request("https://example.com/generated/batch-001/siberian-cat/01.png"),
+      {
+        BOB_SUPPLY_BUCKET: bucketFromObjects({
+          "batch-001/siberian-cat/01.png": PngBytes,
+        }),
+      },
+    );
+
+    expect(response?.status).toBe(200);
+    expect(response?.headers.get("Content-Type")).toBe("image/png");
+    expect(response?.headers.get("X-Bob-Avatars-Key")).toBe("batch-001/siberian-cat/01.png");
+    await expect(response?.arrayBuffer()).resolves.toHaveProperty("byteLength", PngBytes.length);
+  });
+
+  it("returns 503 when the bucket binding is missing", async () => {
+    const response = await handleGeneratedAssetRequest(
+      new Request("https://example.com/generated/batch-001/siberian-cat/01.png"),
+    );
+
+    expect(response?.status).toBe(503);
+  });
+
+  it("returns 404 when a proxied object is missing", async () => {
+    const response = await handleGeneratedAssetRequest(
+      new Request("https://example.com/generated/batch-001/siberian-cat/01.png"),
+      {
+        BOB_SUPPLY_BUCKET: bucketFromObjects({}),
+      },
+    );
+
+    expect(response?.status).toBe(404);
   });
 });
 
@@ -106,5 +173,54 @@ function storageWithAvailability(options: { readonly imageMissing?: boolean } = 
     sourceId: `test-${options.imageMissing ? "missing-image" : "ok"}`,
     getText: async () => `${JSON.stringify(availability)}\n`,
     getImage: async () => (options.imageMissing ? undefined : PngBytes),
+  };
+}
+
+function bucketWithAvailability(
+  options: { readonly imageMissing?: boolean } = {},
+): BobSupplyBucket {
+  const manifest = createManifest({
+    animals: ["siberian cat", "orange tabby cat"],
+    variantsPerAnimal: 2,
+  });
+  const availability = createAvailabilityManifest(
+    manifest,
+    new Set(manifest.entries.map((entry) => entry.path)),
+  );
+  const objects: Record<string, Uint8Array | string> = {
+    "batch-001/available.json": `${JSON.stringify(availability)}\n`,
+  };
+
+  if (!options.imageMissing) {
+    for (const entry of manifest.entries) {
+      objects[`batch-001/${entry.path}`] = PngBytes;
+    }
+  }
+
+  return bucketFromObjects(objects);
+}
+
+function bucketFromObjects(
+  objects: Readonly<Record<string, Uint8Array | string>>,
+): BobSupplyBucket {
+  return {
+    get: async (key) => {
+      const object = objects[key];
+      if (object === undefined) return null;
+
+      const bytes = typeof object === "string" ? new TextEncoder().encode(object) : object;
+      return {
+        body: new ReadableStream<Uint8Array>({
+          start(controller) {
+            controller.enqueue(bytes);
+            controller.close();
+          },
+        }),
+        arrayBuffer: async () => {
+          const copy: Uint8Array<ArrayBuffer> = new Uint8Array(bytes);
+          return copy.buffer;
+        },
+      };
+    },
   };
 }

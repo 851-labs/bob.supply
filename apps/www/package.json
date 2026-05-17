@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite dev",
+    "dev": "bun run build && wrangler dev --config .output/server/wrangler.json --remote",
+    "dev:vite": "vite dev",
     "build": "vite build",
     "deploy": "wrangler deploy --config .output/server/wrangler.json",
     "preview": "vite preview",
