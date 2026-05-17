@@ -7,11 +7,6 @@ export default defineConfig({
     },
   },
   pack: {
-    entry: ["src/index.tsx"],
     dts: true,
-    format: ["esm"],
-  },
-  test: {
-    globals: false,
   },
 });
