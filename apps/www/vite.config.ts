@@ -8,5 +8,27 @@ export default defineConfig({
   server: {
     port: 3000,
   },
-  plugins: [nitro(), tailwindcss(), tanstackStart(), react()],
+  plugins: [
+    nitro({
+      compatibilityDate: "2026-05-16",
+      preset: "cloudflare_module",
+      cloudflare: {
+        deployConfig: true,
+        nodeCompat: true,
+        wrangler: {
+          name: "bob-avatars-www",
+          compatibility_date: "2026-05-16",
+          r2_buckets: [
+            {
+              binding: "BOB_SUPPLY_BUCKET",
+              bucket_name: "bob-supply",
+            },
+          ],
+        },
+      },
+    }),
+    tailwindcss(),
+    tanstackStart(),
+    react(),
+  ],
 });
