@@ -7,6 +7,6 @@ export default defineConfig({
     },
   },
   pack: {
-    dts: true,
+    entry: ["src/index.tsx"],
   },
 });
