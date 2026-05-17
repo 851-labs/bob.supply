@@ -11,30 +11,13 @@ import { handlePfpRequest } from "./src/pfp";
 
 const appDir = dirname(fileURLToPath(import.meta.url));
 const generatedDir = resolve(appDir, "../../generated");
-const batchDir = join(generatedDir, "batch-001");
 
 export default defineConfig({
   server: {
     allowedHosts: ["tuftlords-macbook-pro.tail6fc9a.ts.net"],
     port: 3001,
   },
-  plugins: [
-    pfpApi(),
-    generatedAssets(),
-    nitro({
-      preset: "cloudflare_module",
-      publicAssets: [
-        {
-          baseURL: "generated/batch-001",
-          dir: batchDir,
-          maxAge: 60 * 60 * 24 * 365,
-        },
-      ],
-    }),
-    tailwindcss(),
-    tanstackStart(),
-    react(),
-  ],
+  plugins: [pfpApi(), generatedAssets(), nitro(), tailwindcss(), tanstackStart(), react()],
 });
 
 function pfpApi(): Plugin {
