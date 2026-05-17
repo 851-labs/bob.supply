@@ -11,6 +11,10 @@
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Bundler",
+    "paths": {
+      "@bob-supply/react": ["./packages/react/src/index.tsx"],
+      "@bob-supply/sdk": ["./packages/sdk/src/index.ts"]
+    },
     "resolveJsonModule": true,
     "isolatedModules": true,
     "types": ["node"],

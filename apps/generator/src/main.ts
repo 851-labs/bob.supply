@@ -8,7 +8,7 @@ import {
   createAvailabilityManifest,
   createManifest,
   type ManifestEntry,
-} from "@bob-avatars/core";
+} from "@bob-supply/core";
 
 type ProviderName = "mock" | "codex";
 

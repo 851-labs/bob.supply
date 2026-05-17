@@ -1,5 +1,5 @@
 {
-  "name": "@bob-avatars/www",
+  "name": "@bob-supply/www",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,7 +13,7 @@
     "typegen": "bun run build && wrangler types src/worker-configuration.d.ts --config .output/server/wrangler.json --env-interface CloudflareEnv"
   },
   "dependencies": {
-    "@bob-avatars/core": "workspace:*",
+    "@bob-supply/core": "workspace:*",
     "@bob-supply/sdk": "workspace:*",
     "@tailwindcss/vite": "catalog:",
     "@tanstack/react-router": "catalog:",

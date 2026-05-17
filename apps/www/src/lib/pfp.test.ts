@@ -1,5 +1,5 @@
 import { beforeEach, describe, expect, it } from "vite-plus/test";
-import { createAvailabilityManifest, createManifest } from "@bob-avatars/core";
+import { createAvailabilityManifest, createManifest } from "@bob-supply/core";
 import {
   clearPfpAvailabilityCache,
   handlePfpRequest,

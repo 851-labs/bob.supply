@@ -1,19 +1,26 @@
 {
   "name": "@bob-supply/react",
   "version": "0.1.0",
+  "files": [
+    "dist"
+  ],
   "type": "module",
+  "types": "./dist/index.d.mts",
   "exports": {
-    ".": "./src/index.tsx"
+    ".": {
+      "types": "./dist/index.d.mts",
+      "import": "./dist/index.mjs"
+    }
   },
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
-    "build": "tsc -p tsconfig.json --noEmit",
+    "build": "vp pack",
     "test": "vp test run"
   },
   "dependencies": {
-    "@bob-supply/sdk": "workspace:*"
+    "@bob-supply/sdk": "0.1.0"
   },
   "devDependencies": {
     "@types/react": "catalog:",
@@ -24,6 +31,6 @@
     "vite-plus": "catalog:"
   },
   "peerDependencies": {
-    "react": "catalog:"
+    "react": ">=18.0.0 || >=19.0.0"
   }
 }

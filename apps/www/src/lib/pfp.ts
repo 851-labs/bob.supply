@@ -3,7 +3,7 @@ import {
   avatarObjectKey,
   selectAvatarForSeed,
   type AvailabilityManifest,
-} from "@bob-avatars/core";
+} from "@bob-supply/core";
 
 type BobSupplyObject = Pick<
   NonNullable<Awaited<ReturnType<CloudflareEnv["BOB_SUPPLY_BUCKET"]["get"]>>>,

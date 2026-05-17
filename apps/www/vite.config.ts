@@ -8,6 +8,11 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  resolve: {
+    alias: {
+      "@bob-supply/sdk": new URL("../../packages/sdk/src/index.ts", import.meta.url).pathname,
+    },
+  },
   plugins: [
     nitro({
       compatibilityDate: "2026-05-16",

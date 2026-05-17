@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
-import type { AvailabilityManifest, ManifestEntry } from "@bob-avatars/core";
+import type { AvailabilityManifest, ManifestEntry } from "@bob-supply/core";
 import { bobAvatarUrl } from "@bob-supply/sdk";
 import availabilityManifest from "../../../generator/generated/batch-001/available.json";
 

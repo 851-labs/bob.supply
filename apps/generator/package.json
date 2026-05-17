@@ -1,5 +1,5 @@
 {
-  "name": "@bob-avatars/generator",
+  "name": "@bob-supply/generator",
   "version": "0.0.0",
   "private": true,
   "type": "module",
@@ -13,7 +13,7 @@
     "test": "vp test run"
   },
   "dependencies": {
-    "@bob-avatars/core": "workspace:*"
+    "@bob-supply/core": "workspace:*"
   },
   "devDependencies": {
     "@types/bun": "catalog:",

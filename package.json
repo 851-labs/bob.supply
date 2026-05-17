@@ -1,5 +1,5 @@
 {
-  "name": "@bob-avatars/monorepo",
+  "name": "@bob-supply/monorepo",
   "private": true,
   "workspaces": {
     "packages": [
