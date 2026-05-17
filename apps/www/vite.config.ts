@@ -16,7 +16,7 @@ export default defineConfig({
         deployConfig: true,
         nodeCompat: true,
         wrangler: {
-          name: "bob-avatars-www",
+          name: "bob-supply",
           compatibility_date: "2026-05-16",
           observability: {
             enabled: true,
