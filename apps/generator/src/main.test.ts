@@ -3,6 +3,7 @@ import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { describe, expect, it } from "vite-plus/test";
 import { parseArgs, run } from "./main";
+import { contentTypeForPath, parseUploadArgs } from "./upload";
 
 describe("generator cli", () => {
   it("parses conservative defaults", () => {
@@ -55,5 +56,31 @@ describe("generator cli", () => {
     } finally {
       await rm(outDir, { recursive: true, force: true });
     }
+  });
+});
+
+describe("generated upload cli", () => {
+  it("parses upload defaults", () => {
+    expect(parseUploadArgs([])).toEqual({
+      outDir: "generated",
+      batchId: "batch-001",
+      bucketName: "bob-supply",
+    });
+  });
+
+  it("parses upload overrides", () => {
+    expect(
+      parseUploadArgs(["--out", "../../generated", "--batch", "batch-002", "--bucket", "test"]),
+    ).toEqual({
+      outDir: "../../generated",
+      batchId: "batch-002",
+      bucketName: "test",
+    });
+  });
+
+  it("maps generated upload content types", () => {
+    expect(contentTypeForPath("batch-001/available.json")).toBe("application/json; charset=utf-8");
+    expect(contentTypeForPath("batch-001/siberian-cat/01.png")).toBe("image/png");
+    expect(contentTypeForPath(".DS_Store")).toBeUndefined();
   });
 });

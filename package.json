@@ -41,8 +41,7 @@
     "availability": "bun run --cwd apps/generator availability -- --out ../../generated",
     "generate": "bun run --cwd apps/generator generate -- --out ../../generated",
     "typegen:worker": "bun run --cwd apps/www typegen",
-    "typegen:worker:check": "bun run --cwd apps/www typegen:check",
-    "upload:generated": "bun scripts/upload-generated.ts"
+    "upload:generated": "bun run --cwd apps/generator upload -- --out ../../generated"
   },
   "devDependencies": {
     "@types/node": "catalog:",

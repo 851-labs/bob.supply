@@ -9,6 +9,7 @@
     "plan": "bun src/main.ts --plan-only",
     "availability": "bun src/main.ts --availability-only",
     "generate": "bun src/main.ts",
+    "upload": "bun src/upload.ts",
     "test": "vp test run"
   },
   "dependencies": {

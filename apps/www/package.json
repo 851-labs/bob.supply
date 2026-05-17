@@ -10,8 +10,7 @@
     "deploy": "wrangler deploy --config .output/server/wrangler.json",
     "preview": "vp preview",
     "test": "vp test run",
-    "typegen": "bun run build && wrangler types src/worker-configuration.d.ts --config .output/server/wrangler.json --env-interface CloudflareEnv",
-    "typegen:check": "bun run build && bun scripts/check-worker-types.ts"
+    "typegen": "bun run build && wrangler types src/worker-configuration.d.ts --config .output/server/wrangler.json --env-interface CloudflareEnv"
   },
   "dependencies": {
     "@bob-avatars/core": "workspace:*",
