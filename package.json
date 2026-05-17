@@ -42,6 +42,8 @@
     "plan": "bun run --cwd apps/generator plan -- --out ../../generated",
     "availability": "bun run --cwd apps/generator availability -- --out ../../generated",
     "generate": "bun run --cwd apps/generator generate -- --out ../../generated",
+    "typegen:worker": "bun run --cwd apps/www typegen",
+    "typegen:worker:check": "bun run --cwd apps/www typegen:check",
     "upload:generated": "bun scripts/upload-generated.ts"
   },
   "devDependencies": {

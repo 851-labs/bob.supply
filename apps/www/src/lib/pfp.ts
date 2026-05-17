@@ -5,17 +5,17 @@ import {
   type AvailabilityManifest,
 } from "@bob-avatars/core";
 
+type BobSupplyObject = Pick<
+  NonNullable<Awaited<ReturnType<CloudflareEnv["BOB_SUPPLY_BUCKET"]["get"]>>>,
+  "arrayBuffer" | "body"
+>;
+
 export type BobSupplyBucket = {
-  readonly get: (key: string) => Promise<R2ObjectBody | null>;
+  readonly get: (key: string) => Promise<BobSupplyObject | null>;
 };
 
 export type PfpEnv = {
   readonly BOB_SUPPLY_BUCKET?: BobSupplyBucket;
-};
-
-type R2ObjectBody = {
-  readonly body: ReadableStream<Uint8Array> | null;
-  readonly arrayBuffer?: () => Promise<ArrayBuffer>;
 };
 
 export type AvatarStorage = {
