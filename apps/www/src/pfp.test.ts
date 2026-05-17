@@ -15,16 +15,19 @@ describe("pfp api", () => {
   });
 
   it("extracts raw decoded seeds from image paths", () => {
-    expect(seedFromPath("/pfp/Alice")).toBe("Alice");
-    expect(seedFromPath("/pfp/alice%20smith")).toBe("alice smith");
-    expect(seedFromPath("/pfp/")).toBeUndefined();
-    expect(seedFromPath("/pfp/alice/avatar")).toBeUndefined();
-    expect(seedFromPath("/avatar/Alice")).toBeUndefined();
+    expect(seedFromPath("/Alice")).toBe("Alice");
+    expect(seedFromPath("/alice_smith-1")).toBe("alice_smith-1");
+    expect(seedFromPath("/")).toBeUndefined();
+    expect(seedFromPath("/alice/avatar")).toBeUndefined();
+    expect(seedFromPath("/alice%20smith")).toBeUndefined();
+    expect(seedFromPath("/generated/batch-001/cat/01.png")).toBeUndefined();
+    expect(seedFromPath("/assets/index.js")).toBeUndefined();
+    expect(seedFromPath("/_build/index.js")).toBeUndefined();
   });
 
   it("returns deterministic png responses for available avatars", async () => {
     const response = await handlePfpRequest(
-      new Request("https://example.com/pfp/alice?format=png&size=256"),
+      new Request("https://example.com/alice?format=png&size=256"),
       {},
       storageWithAvailability(),
     );
@@ -45,7 +48,7 @@ describe("pfp api", () => {
 
   it("rejects non-get pfp requests", async () => {
     const response = await handlePfpRequest(
-      new Request("https://example.com/pfp/alice", { method: "POST" }),
+      new Request("https://example.com/alice?format=png", { method: "POST" }),
       {},
       storageWithAvailability(),
     );
@@ -56,7 +59,7 @@ describe("pfp api", () => {
 
   it("rejects unsupported formats", async () => {
     const response = await handlePfpRequest(
-      new Request("https://example.com/pfp/alice?format=webp"),
+      new Request("https://example.com/alice?format=webp"),
       {},
       storageWithAvailability(),
     );
@@ -66,7 +69,7 @@ describe("pfp api", () => {
 
   it("returns 503 when availability is unavailable", async () => {
     const response = await handlePfpRequest(
-      new Request("https://example.com/pfp/alice"),
+      new Request("https://example.com/alice?format=png"),
       {},
       {
         sourceId: "missing",
@@ -80,7 +83,7 @@ describe("pfp api", () => {
 
   it("returns 502 when the selected image is missing", async () => {
     const response = await handlePfpRequest(
-      new Request("https://example.com/pfp/alice"),
+      new Request("https://example.com/alice?format=png"),
       {},
       storageWithAvailability({ imageMissing: true }),
     );

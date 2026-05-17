@@ -55,10 +55,11 @@ bun run availability
 The web app serves deterministic avatar images from seeds:
 
 ```text
-GET /pfp/{seed}?format=png
+GET /{slug}?format=png
 ```
 
-The exact decoded seed is hashed as raw UTF-8, so `Alice` and `alice` may map to different
-avatars. `format` defaults to `png`; other formats are reserved for later and currently return
-`400`. In local dev, the API reads from `generated/batch-001`. In Cloudflare, `apps/www` expects an
-R2 binding named `BOB_SUPPLY_BUCKET` and reads keys like `batch-001/{animal-slug}/{variant}.png`.
+The root slug must use only letters, numbers, `_`, or `-`. The exact slug is hashed as raw UTF-8, so
+`Alice` and `alice` may map to different avatars. `format` defaults to `png`; other formats are
+reserved for later and currently return `400`. In local dev, the API reads from
+`generated/batch-001`. In Cloudflare, `apps/www` expects an R2 binding named `BOB_SUPPLY_BUCKET` and
+reads keys like `batch-001/{animal-slug}/{variant}.png`.

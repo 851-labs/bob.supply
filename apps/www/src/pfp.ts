@@ -90,19 +90,10 @@ export async function handlePfpRequest(
 }
 
 export function seedFromPath(pathname: string): string | undefined {
-  const prefix = "/pfp/";
-  if (!pathname.startsWith(prefix)) {
-    return undefined;
-  }
+  const slug = pathname.slice(1);
+  if (!/^[a-zA-Z0-9_-]+$/.test(slug)) return undefined;
 
-  const encodedSeed = pathname.slice(prefix.length);
-  if (encodedSeed === "" || encodedSeed.includes("/")) return undefined;
-
-  try {
-    return decodeURIComponent(encodedSeed);
-  } catch {
-    return undefined;
-  }
+  return slug;
 }
 
 function createStorage(env: PfpEnv): AvatarStorage {

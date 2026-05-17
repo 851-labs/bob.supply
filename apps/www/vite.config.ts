@@ -47,14 +47,8 @@ function pfpApi(): Plugin {
           return;
         }
 
-        const url = new URL(request.url, "http://localhost");
-        if (!url.pathname.startsWith("/pfp/")) {
-          next();
-          return;
-        }
-
         const pfpResponse = await handlePfpRequest(
-          new Request(url, {
+          new Request(new URL(request.url, "http://localhost"), {
             method: request.method,
             headers: request.headers as HeadersInit,
           }),
