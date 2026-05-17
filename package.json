@@ -1,0 +1,57 @@
+{
+  "name": "@bob-avatars/monorepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "@tailwindcss/vite": "4.3.0",
+      "@tanstack/react-router": "1.169.2",
+      "@tanstack/react-start": "1.167.65",
+      "@tanstack/router-plugin": "1.167.35",
+      "@types/bun": "1.3.14",
+      "@types/node": "25.8.0",
+      "@types/react": "19.2.14",
+      "@types/react-dom": "19.2.3",
+      "@vitejs/plugin-react": "6.0.1",
+      "lefthook": "2.1.6",
+      "nitro": "3.0.260429-beta",
+      "oxfmt": "0.50.0",
+      "oxlint": "1.65.0",
+      "oxlint-tsgolint": "0.22.1",
+      "react": "19.2.6",
+      "react-dom": "19.2.6",
+      "tailwindcss": "4.3.0",
+      "turbo": "2.9.14",
+      "vite": "8.0.13",
+      "typescript": "6.0.3",
+      "vitest": "4.1.6"
+    }
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "bun --env-file=.env turbo dev",
+    "build": "turbo build",
+    "test": "turbo test",
+    "lint": "oxlint --type-aware --type-check",
+    "lint:fix": "oxlint --fix --type-aware --type-check",
+    "fmt": "oxfmt --check",
+    "fmt:fix": "oxfmt",
+    "plan": "bun run --cwd apps/generator plan -- --out ../../generated",
+    "availability": "bun run --cwd apps/generator availability -- --out ../../generated",
+    "generate": "bun run --cwd apps/generator generate -- --out ../../generated"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "lefthook": "catalog:",
+    "oxfmt": "catalog:",
+    "oxlint": "catalog:",
+    "oxlint-tsgolint": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  },
+  "packageManager": "bun@1.3.14"
+}

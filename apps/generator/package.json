@@ -1,0 +1,23 @@
+{
+  "name": "@bob-avatars/generator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit",
+    "dev": "bun --watch src/main.ts",
+    "plan": "bun src/main.ts --plan-only",
+    "availability": "bun src/main.ts --availability-only",
+    "generate": "bun src/main.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@bob-avatars/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/bun": "catalog:",
+    "@types/node": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  }
+}

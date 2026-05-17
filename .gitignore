@@ -1,0 +1,11 @@
+node_modules
+.turbo
+.DS_Store
+.output
+.wrangler
+dist
+coverage
+*.tsbuildinfo
+.env
+.env.local
+generated
