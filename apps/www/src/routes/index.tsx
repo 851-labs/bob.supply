@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import type { AvailabilityManifest, ManifestEntry } from "@bob-avatars/core";
+import { bobAvatarUrl } from "@bob-supply/sdk";
 import availabilityManifest from "../../../../generated/batch-001/available.json";
 
 export const Route = createFileRoute("/")({
@@ -44,7 +45,7 @@ function AvatarCard({ entry }: { readonly entry: ManifestEntry }) {
   return (
     <article className="aspect-square overflow-hidden rounded-full bg-neutral-100">
       <img
-        src={`/generated/${entry.batchId}/${entry.path}`}
+        src={bobAvatarUrl(entry.animalSlug)}
         alt={`${entry.animal} avatar`}
         className="h-full w-full object-cover"
         loading="lazy"

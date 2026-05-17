@@ -101,51 +101,6 @@ export function seedFromPath(pathname: string): string | undefined {
   return slug;
 }
 
-export async function handleGeneratedAssetRequest(
-  request: Request,
-  env: PfpEnv = {},
-): Promise<Response | undefined> {
-  const url = new URL(request.url);
-  const objectKey = generatedObjectKeyFromPath(url.pathname);
-  if (objectKey === undefined) return undefined;
-
-  if (request.method !== "GET" && request.method !== "HEAD") {
-    return new Response("Method Not Allowed", {
-      status: 405,
-      headers: {
-        Allow: "GET, HEAD",
-      },
-    });
-  }
-
-  if (env.BOB_SUPPLY_BUCKET === undefined) {
-    return new Response("Generated asset storage is unavailable", { status: 503 });
-  }
-
-  const object = await env.BOB_SUPPLY_BUCKET.get(objectKey);
-  if (object === null || object.body === null) {
-    return new Response("Generated asset is missing", { status: 404 });
-  }
-
-  return new Response(request.method === "HEAD" ? null : object.body, {
-    headers: {
-      "Cache-Control": "public, max-age=31536000, immutable",
-      "Content-Type": contentTypeForObjectKey(objectKey),
-      "X-Bob-Avatars-Key": objectKey,
-    },
-  });
-}
-
-export function generatedObjectKeyFromPath(pathname: string): string | undefined {
-  const prefix = "/generated/";
-  if (!pathname.startsWith(prefix)) return undefined;
-
-  const objectKey = pathname.slice(prefix.length);
-  if (!/^batch-001\/[a-z0-9-]+\/[0-9]{2}\.png$/.test(objectKey)) return undefined;
-
-  return objectKey;
-}
-
 function createStorage(env: PfpEnv): AvatarStorage | undefined {
   if (env.BOB_SUPPLY_BUCKET !== undefined) {
     return createR2Storage(env.BOB_SUPPLY_BUCKET);
@@ -207,10 +162,4 @@ async function readAvailability(
   } catch {
     return undefined;
   }
-}
-
-function contentTypeForObjectKey(objectKey: string): string {
-  if (objectKey.endsWith(".png")) return "image/png";
-  if (objectKey.endsWith(".json")) return "application/json; charset=utf-8";
-  return "application/octet-stream";
 }

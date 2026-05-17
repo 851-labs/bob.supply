@@ -75,9 +75,27 @@ The root slug must use only letters, numbers, `_`, or `-`. The exact slug is has
 `Alice` and `alice` may map to different avatars. `format` defaults to `png`; other formats are
 reserved for later and currently return `400`.
 
-The web runtime serves both `/{slug}?format=png` and `/generated/batch-001/{animal-slug}/{variant}.png`
-from the Cloudflare R2 binding named `BOB_SUPPLY_BUCKET`. Missing bucket bindings return `503`.
-If an avatar selected from `available.json` is absent in R2, the seed API returns `502`.
+The web runtime serves `/{slug}?format=png` from the Cloudflare R2 binding named
+`BOB_SUPPLY_BUCKET`. Missing bucket bindings return `503`. If an avatar selected from
+`available.json` is absent in R2, the seed API returns `502`.
+
+## Tooling Packages
+
+`@bob-supply/sdk` exports framework-agnostic URL helpers:
+
+```ts
+import { bobAvatarUrl } from "@bob-supply/sdk";
+
+bobAvatarUrl("alice");
+```
+
+`@bob-supply/react` exports a small image component:
+
+```tsx
+import { BobAvatar } from "@bob-supply/react";
+
+<BobAvatar seed="alice" alt="Alice avatar" />;
+```
 
 ## Web Dev
 

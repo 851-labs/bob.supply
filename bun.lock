@@ -29,6 +29,7 @@
       "version": "0.0.0",
       "dependencies": {
         "@bob-avatars/core": "workspace:*",
+        "@bob-supply/sdk": "workspace:*",
         "@tailwindcss/vite": "catalog:",
         "@tanstack/react-router": "catalog:",
         "@tanstack/react-start": "catalog:",
@@ -50,6 +51,32 @@
     },
     "packages/core": {
       "name": "@bob-avatars/core",
+      "version": "0.0.0",
+      "devDependencies": {
+        "typescript": "catalog:",
+        "vite-plus": "catalog:",
+      },
+    },
+    "packages/react": {
+      "name": "@bob-supply/react",
+      "version": "0.0.0",
+      "dependencies": {
+        "@bob-supply/sdk": "workspace:*",
+      },
+      "devDependencies": {
+        "@types/react": "catalog:",
+        "@types/react-dom": "catalog:",
+        "react": "catalog:",
+        "react-dom": "catalog:",
+        "typescript": "catalog:",
+        "vite-plus": "catalog:",
+      },
+      "peerDependencies": {
+        "react": "catalog:",
+      },
+    },
+    "packages/sdk": {
+      "name": "@bob-supply/sdk",
       "version": "0.0.0",
       "devDependencies": {
         "typescript": "catalog:",
@@ -126,6 +153,10 @@
     "@bob-avatars/generator": ["@bob-avatars/generator@workspace:apps/generator"],
 
     "@bob-avatars/www": ["@bob-avatars/www@workspace:apps/www"],
+
+    "@bob-supply/react": ["@bob-supply/react@workspace:packages/react"],
+
+    "@bob-supply/sdk": ["@bob-supply/sdk@workspace:packages/sdk"],
 
     "@cloudflare/kv-asset-handler": ["@cloudflare/kv-asset-handler@0.4.0", "", { "dependencies": { "mime": "^3.0.0" } }, "sha512-+tv3z+SPp+gqTIcImN9o0hqE9xyfQjI1XD9pL6NuKjua9B1y7mNYv0S9cP+QEbA4ppVgGZEmKOvHX5G5Ei1CVA=="],
 
