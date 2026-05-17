@@ -18,6 +18,15 @@ export default defineConfig({
         wrangler: {
           name: "bob-avatars-www",
           compatibility_date: "2026-05-16",
+          observability: {
+            enabled: true,
+          },
+          routes: [
+            {
+              pattern: "bob.supply",
+              custom_domain: true,
+            },
+          ],
           r2_buckets: [
             {
               binding: "BOB_SUPPLY_BUCKET",
