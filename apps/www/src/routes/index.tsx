@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { createServerFn } from "@tanstack/react-start";
 import type { AvailabilityManifest, ManifestEntry } from "@bob-avatars/core";
 import { bobAvatarUrl } from "@bob-supply/sdk";
-import availabilityManifest from "../../../../generated/batch-001/available.json";
+import availabilityManifest from "../../../generator/generated/batch-001/available.json";
 
 export const Route = createFileRoute("/")({
   loader: () => getGeneratedAvatars(),

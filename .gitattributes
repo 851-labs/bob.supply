@@ -1,1 +1,1 @@
-generated/**/*.png filter=lfs diff=lfs merge=lfs -text
+apps/generator/generated/**/*.png filter=lfs diff=lfs merge=lfs -text

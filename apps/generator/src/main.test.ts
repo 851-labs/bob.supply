@@ -70,9 +70,9 @@ describe("generated upload cli", () => {
 
   it("parses upload overrides", () => {
     expect(
-      parseUploadArgs(["--out", "../../generated", "--batch", "batch-002", "--bucket", "test"]),
+      parseUploadArgs(["--out", "generated-test", "--batch", "batch-002", "--bucket", "test"]),
     ).toEqual({
-      outDir: "../../generated",
+      outDir: "generated-test",
       batchId: "batch-002",
       bucketName: "test",
     });

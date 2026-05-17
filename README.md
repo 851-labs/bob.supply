@@ -18,14 +18,15 @@ bun run generate
 bun run upload:generated
 ```
 
-`bun run plan` writes `generated/batch-001/manifest.json` without generating images.
+`bun run plan` writes `apps/generator/generated/batch-001/manifest.json` without generating images.
 
 `bun run generate` is resumable. Existing image files are skipped unless `--force` is passed.
-It also writes `generated/batch-001/available.json`, which contains only images that exist on disk.
+It also writes `apps/generator/generated/batch-001/available.json`, which contains only images that exist on disk.
 
 ## Generation
 
-`bun run generate` prompts the Codex CLI once per manifest entry and saves each PNG under `generated/batch-001/{animal-slug}/{variant}.png`.
+`bun run generate` prompts the Codex CLI once per manifest entry and saves each PNG under
+`apps/generator/generated/batch-001/{animal-slug}/{variant}.png`.
 
 For a small smoke run:
 
@@ -51,7 +52,8 @@ To refresh only the availability manifest after adding or uploading images:
 bun run availability
 ```
 
-Generated PNGs are tracked with Git LFS under `generated/**/*.png`. Do not commit `.DS_Store`.
+Generated PNGs are tracked with Git LFS under `apps/generator/generated/**/*.png`. Do not commit
+`.DS_Store`.
 
 To upload the active batch to R2:
 
@@ -59,9 +61,9 @@ To upload the active batch to R2:
 bun run upload:generated
 ```
 
-The upload command writes files from `generated/batch-001` to the `bob-supply` bucket with keys like
-`batch-001/{animal-slug}/{variant}.png`. PNGs are uploaded as `image/png`; JSON manifests are
-uploaded as `application/json; charset=utf-8`.
+The upload command writes files from `apps/generator/generated/batch-001` to the `bob-supply` bucket
+with keys like `batch-001/{animal-slug}/{variant}.png`. PNGs are uploaded as `image/png`; JSON
+manifests are uploaded as `application/json; charset=utf-8`.
 
 ## PFP API
 

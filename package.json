@@ -37,11 +37,11 @@
     "lint:fix": "vp lint --fix --type-aware --type-check",
     "fmt": "vp fmt --check",
     "fmt:fix": "vp fmt",
-    "plan": "bun run --cwd apps/generator plan -- --out ../../generated",
-    "availability": "bun run --cwd apps/generator availability -- --out ../../generated",
-    "generate": "bun run --cwd apps/generator generate -- --out ../../generated",
+    "plan": "bun run --cwd apps/generator plan",
+    "availability": "bun run --cwd apps/generator availability",
+    "generate": "bun run --cwd apps/generator generate",
     "typegen:worker": "bun run --cwd apps/www typegen",
-    "upload:generated": "bun run --cwd apps/generator upload -- --out ../../generated"
+    "upload:generated": "bun run --cwd apps/generator upload"
   },
   "devDependencies": {
     "@types/node": "catalog:",
