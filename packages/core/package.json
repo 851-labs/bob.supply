@@ -8,10 +8,10 @@
   },
   "scripts": {
     "build": "tsc -p tsconfig.json --noEmit",
-    "test": "vitest run"
+    "test": "vp test run"
   },
   "devDependencies": {
     "typescript": "catalog:",
-    "vitest": "catalog:"
+    "vite-plus": "catalog:"
   }
 }

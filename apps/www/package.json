@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "bun run build && wrangler dev --config .output/server/wrangler.json --remote",
-    "dev:vite": "vite dev",
-    "build": "vite build",
+    "dev:vite": "vp dev",
+    "build": "vp build",
     "deploy": "wrangler deploy --config .output/server/wrangler.json",
-    "preview": "vite preview",
-    "test": "vitest run",
+    "preview": "vp preview",
+    "test": "vp test run",
     "typegen": "bun run build && wrangler types src/worker-configuration.d.ts --config .output/server/wrangler.json --env-interface CloudflareEnv",
     "typegen:check": "bun run build && wrangler types src/worker-configuration.d.ts --config .output/server/wrangler.json --env-interface CloudflareEnv --check"
   },
@@ -30,8 +30,7 @@
     "@types/react-dom": "catalog:",
     "@vitejs/plugin-react": "catalog:",
     "typescript": "catalog:",
-    "vite": "catalog:",
-    "vitest": "catalog:",
-    "wrangler": "^4.0.0"
+    "vite-plus": "catalog:",
+    "wrangler": "catalog:"
   }
 }
