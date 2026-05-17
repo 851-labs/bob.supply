@@ -7,7 +7,7 @@ import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import react from "@vitejs/plugin-react";
 import { nitro } from "nitro/vite";
 import { defineConfig, type Plugin } from "vite";
-import { handlePfpRequest } from "./src/pfp";
+import { handlePfpRequest } from "./src/lib/pfp";
 
 const appDir = dirname(fileURLToPath(import.meta.url));
 const generatedDir = resolve(appDir, "../../generated");

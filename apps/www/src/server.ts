@@ -1,5 +1,5 @@
 import handler from "@tanstack/react-start/server-entry";
-import { handlePfpRequest, type PfpEnv } from "./pfp";
+import { handlePfpRequest, type PfpEnv } from "./lib/pfp";
 
 export default {
   async fetch(request: Request, env?: PfpEnv) {
