@@ -32,7 +32,7 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "bun --env-file=.env turbo dev",
+    "dev": "turbo dev",
     "build": "turbo build",
     "test": "turbo test",
     "lint": "oxlint --type-aware --type-check",

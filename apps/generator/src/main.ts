@@ -140,10 +140,6 @@ const CodexProvider: ImageProvider = {
   name: "codex",
   generate: async (entry, outputPath) => {
     const args = ["exec", "--cd", process.cwd(), "--dangerously-bypass-approvals-and-sandbox"];
-    const model = process.env.BOB_AVATARS_CODEX_MODEL;
-    if (model && model.trim() !== "") {
-      args.push("--model", model);
-    }
     args.push(
       [
         "Generate exactly one PNG image file.",

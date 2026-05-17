@@ -10,7 +10,6 @@ export type BobSupplyBucket = {
 };
 
 export type PfpEnv = {
-  readonly BOB_AVATARS_BATCH_ID?: string;
   readonly BOB_SUPPLY_BUCKET?: BobSupplyBucket;
 };
 
@@ -32,6 +31,8 @@ let availabilityCache:
       readonly value: Promise<AvailabilityManifest | undefined>;
     }
   | undefined;
+
+const ActiveBatchId = "batch-001";
 
 export function clearPfpAvailabilityCache(): void {
   availabilityCache = undefined;
@@ -62,8 +63,7 @@ export async function handlePfpRequest(
     return new Response("Unsupported avatar format", { status: 400 });
   }
 
-  const batchId = env.BOB_AVATARS_BATCH_ID ?? "batch-001";
-  const availability = await loadAvailability(storage, batchId);
+  const availability = await loadAvailability(storage, ActiveBatchId);
   if (availability === undefined || availability.entries.length === 0) {
     return new Response("Avatar availability manifest is unavailable", { status: 503 });
   }
@@ -73,7 +73,7 @@ export async function handlePfpRequest(
     return new Response("No avatars are available", { status: 503 });
   }
 
-  const objectKey = avatarObjectKey(batchId, entry);
+  const objectKey = avatarObjectKey(ActiveBatchId, entry);
   const image = await storage.getImage(objectKey);
   if (image === undefined) {
     return new Response("Selected avatar image is missing", { status: 502 });
@@ -83,7 +83,7 @@ export async function handlePfpRequest(
     headers: {
       "Cache-Control": "public, max-age=86400",
       "Content-Type": "image/png",
-      "X-Bob-Avatars-Batch": batchId,
+      "X-Bob-Avatars-Batch": ActiveBatchId,
       "X-Bob-Avatars-Key": objectKey,
     },
   });

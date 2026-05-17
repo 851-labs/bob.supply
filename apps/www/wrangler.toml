@@ -1,9 +1,6 @@
 name = "bob-avatars-www"
 compatibility_date = "2026-05-16"
 
-[vars]
-BOB_AVATARS_BATCH_ID = "batch-001"
-
 [[r2_buckets]]
 binding = "BOB_SUPPLY_BUCKET"
 bucket_name = "bob-supply"
